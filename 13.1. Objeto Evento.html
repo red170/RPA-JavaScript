@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <div id="gallery">
+            <div class="galleryitem">1</div>
+            <div class="galleryitem">2</div>
+            <div class="galleryitem">3</div>
+            <div class="galleryitem">4</div>
+            <div class="galleryitem">5</div>
+            <div class="galleryitem">6</div>
+            <div class="galleryitem">7</div>
+            <div class="galleryitem">8</div>
+            <div class="galleryitem">9</div>
+        </div>
+
+        <hr>
+
+        <div class="contenedor">
+
+            <form id="form">
+
+                <input type="text" id="input" placeholder="placeholder">
+                <input type= "submit" value="Enviar">
+         
+            </form>
+        
+            <button id="button">Inserta Nombre Personal</button>
+            <button id="button2">Limpiar</button>
+
+        </div>
+
+        
+
+<script src="13.1. Objeto Evento.js"></script>
+
+<style>
+    #gallery{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap :10px;
+        margin-bottom: 20px;
+    }
+    .galleryitem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+
+    .red{
+        background: aqua;
+    }
+
+    form{
+        margin-bottom: 20px;
+    }
+</style>
+</body>
+</html>
