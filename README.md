@@ -24,8 +24,4 @@ Este repositorio contiene mis apuntes de programación en JS. Los apuntes cubren
 * Sé creativo con el diseño de tu README para hacerlo atractivo y visualmente agradable.
 * Utiliza un lenguaje claro y conciso para que tu README sea fácil de leer y comprender.
 
-**Recursos:**
-
-* [Plantillas de README para GitHub](https://www.freecodecamp.org/news/best-github-readme-templates/)
-* [Cómo escribir un buen README](https://choosealicense.com/blog/how-to-write-a-good-readme/)
 
