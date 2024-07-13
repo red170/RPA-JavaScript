@@ -1,10 +1,10 @@
-## Apuntes de Python
+## Apuntes de Javascript 
 
 **Imagen o gráfico relacionado con Python**
 
 **Descripción:**
 
-Este repositorio contiene mis apuntes de programación en Python. Los apuntes cubren los fundamentos del lenguaje, incluyendo variables, tipos de datos, operadores, estructuras de control y funciones. El repositorio está dirigido a principiantes que quieran aprender los conceptos básicos de Python.
+Este repositorio contiene mis apuntes de programación en JS. Los apuntes cubren los fundamentos del lenguaje, incluyendo variables, tipos de datos, operadores, estructuras de control y funciones. El repositorio está dirigido a principiantes que quieran aprender los conceptos básicos de JS, basado un poco en mi experiencia como autodidacta.
 
 **Observaciones:**
 
