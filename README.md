@@ -12,16 +12,16 @@ Este repositorio está licenciado bajo la Licencia Creative Commons Attribution 
 
 
 ## Contenidos
-**1. Variables**
-**2. Metodos y Propiedades de Strings**
-**3. Objeto Math**
-**4. Ciclos de Descicione Y Bucles**
-**5. Arreglos**
-**6. Metodos y Propiedades de Arreglos**
-**7. Objetos y Recorrido de Objetos**
-**8. Funciones y Clases**
-**9. DOM**
-**10. Objeto Evento**
+**1. Variables**<br>
+**2. Metodos y Propiedades de Strings**<br>
+**3. Objeto Math**<br>
+**4. Ciclos de Descicione Y Bucles**<br>
+**5. Arreglos**<br>
+**6. Metodos y Propiedades de Arreglos**<br>
+**7. Objetos y Recorrido de Objetos**<br>
+**8. Funciones y Clases**<br>
+**9. DOM**<br>
+**10. Objeto Evento**<br>
 **11. Ajax/HTTPSRequest**
 
 
