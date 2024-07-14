@@ -1,29 +1,27 @@
+### Apuntes de Javascript 
+
 <img src="/Resources/bjs.png">
 
-## Apuntes de Javascript 
-
-**Imagen o gráfico relacionado con Python**
-
-**Descripción:**
+## Descripcion
 
 Este repositorio contiene mis apuntes de programación en JS. Los apuntes cubren los fundamentos del lenguaje, incluyendo variables, tipos de datos, operadores, estructuras de control y funciones. El repositorio está dirigido a principiantes que quieran aprender los conceptos básicos de JS, basado un poco en mi experiencia como autodidacta.
 
-**Observaciones:**
+## Licencia
 
-* **Licencia:** MIT
-* **Contribuciones:** Se aceptan correcciones y sugerencias.
-* **Agradecimientos:** Agradezco a [Nombre del colaborador] por su ayuda en la revisión de los apuntes.
+Este repositorio está licenciado bajo la Licencia Creative Commons Attribution 4.0 International (CC BY 4.0). Puedes usar, compartir y modificar este contenido siempre y cuando se atribuya adecuadamente al autor original.
 
-**Secciones adicionales:**
 
-* **Tabla de contenidos:** Si tu repositorio tiene varios archivos o carpetas, puedes incluir una tabla de contenidos para facilitar la navegación.
-* **Enlaces:** Puedes incluir enlaces a recursos externos relacionados con el lenguaje de programación o los temas cubiertos en los apuntes.
-* **Ejemplos de código:** Puedes incluir ejemplos de código para ilustrar los conceptos explicados en los apuntes.
-
-**Consejos:**
-
-* Mantén tu README actualizado con la última información.
-* Sé creativo con el diseño de tu README para hacerlo atractivo y visualmente agradable.
-* Utiliza un lenguaje claro y conciso para que tu README sea fácil de leer y comprender.
+## Contenidos
+**1. Variables**
+**2. Metodos y Propiedades de Strings**
+**3. Objeto Math**
+**4. Ciclos de Descicione Y Bucles**
+**5. Arreglos**
+**6. Metodos y Propiedades de Arreglos**
+**7. Objetos y Recorrido de Objetos**
+**8. Funciones y Clases**
+**9. DOM**
+**10. Objeto Evento**
+**11. Ajax/HTTPSRequest**
 
 
