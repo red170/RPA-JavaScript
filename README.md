@@ -1,3 +1,5 @@
+<img src="/Resources/bjs.png">
+
 ## Apuntes de Javascript 
 
 **Imagen o gráfico relacionado con Python**
