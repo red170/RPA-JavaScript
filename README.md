@@ -23,5 +23,6 @@ Este repositorio está licenciado bajo la Licencia Creative Commons Attribution 
 **9. DOM**<br>
 **10. Objeto Evento**<br>
 **11. Ajax/HTTPSRequest**
+**12. Callbacks / Promesas**
 
 
