@@ -22,7 +22,7 @@ Este repositorio está licenciado bajo la Licencia Creative Commons Attribution 
 **8. Funciones y Clases**<br>
 **9. DOM**<br>
 **10. Objeto Evento**<br>
-**11. Ajax/HTTPSRequest**
+**11. Ajax/HTTPSRequest**<br>
 **12. Callbacks / Promesas**
 
 
