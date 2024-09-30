@@ -37,3 +37,8 @@ dropZone.addEventListener('dragleave', (e) => {
     e.preventDefault()
     console.log('Drag Leave')
 })
+
+dropZone.addEventListener('dragenter', (e) => {
+    e.preventDefault()
+    console.log('Drag Enter')
+})
