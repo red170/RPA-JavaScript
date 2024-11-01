@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexedDB</title>
+  </head>
+
+  <body>
+    <form id="form" class="form">
+      <label for="task">Task</label>
+      <input type="text" name="task" placeholder="text">
+      <select name="priority" title="prioridad">
+        <option value="low">Low</option>
+        <option value="normal">Normal</option>
+        <option value="high">High</option>
+      </select>
+      <button class="button" type="button" name="button" data-action="add">Add Task</button>
+    </form>
+    <div id="tasks" class="tasks"></div>
+    <script src="27. Indexed DB.js"></script>
+  </body>
+
+    <style>
+        body {
+        margin: 0;
+        background-color: #2f3238;
+        font-family: sans-serif;
+        color: #ccc;
+        }
+
+        .form {
+        width: 100%;
+        margin-top: 2rem;
+        text-align: center;
+        }
+
+        .button {
+        background: orangered;
+        border: none;
+        padding: 0.2rem 0.8rem;
+        border-radius: 15px;
+        color: #ccc;
+        cursor: pointer;
+        }
+    </style>
+</html>
