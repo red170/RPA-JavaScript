@@ -9,3 +9,5 @@ const variable4 = 97 //Constante
 
 variable = ' SOY UN STRING '
 variable2 = 10
+
+console.log(variable)

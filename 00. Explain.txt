@@ -1,0 +1,18 @@
+Que es el JavaScript
+    * Caracteristicas
+        - Lenguaje de Porgramacion
+        - Interpretado (Se ejecuta en el Navegador gracias al interprete sin necesidad de Compilador)
+        - Orientado a Objetos
+        - Imperativo(Todas las Instrucciones van de linea en linea y no se ejecuta todo a la vez)
+        - Case Sensitive 
+        - Basado en Prototipos/Instacias/Clases
+        - Tipado Debil
+        - Lenguaje Debil (La Variable se ajusta al Dato)
+        - Esta Regido por la ECMASCRIPT (Actualmente en la version 15)
+
+    *Uso
+        - Dinamismo y Funcioinalidades de las Webs
+        - Servidor en NodeJS
+        - Tecnologias Front como Angular, React o Vue.JS
+        - IA
+        - Progrmacion de Placas Electronicas
