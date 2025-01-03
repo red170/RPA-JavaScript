@@ -16,3 +16,10 @@ Que es el JavaScript
         - Tecnologias Front como Angular, React o Vue.JS
         - IA
         - Progrmacion de Placas Electronicas
+
+    *Formas de Enlazar
+        - En linea
+        - Como Contenido en la Etiqueta <script></script>
+        - Como Contenido en un Archivo de formato JS
+        - Con Require
+        
