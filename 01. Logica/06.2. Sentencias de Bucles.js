@@ -15,3 +15,16 @@ for (let i = 0; i < 10; i++){
     }
     console.log(i)
 }   
+
+//SENTENCIA LABEL
+// La sentencia label proporciona una declaración de identificador para una sentencia.
+
+outerLoop:
+for (let i = 0; i < 3; i++) {
+  for (let j = 0; j < 3; j++) {
+    if (i === 1 && j === 1) {
+      break outerLoop; // Sale del bucle más externo
+    }
+    console.log(i, j);
+  }
+}
