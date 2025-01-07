@@ -1,6 +1,6 @@
 ### Apuntes de Javascript 
 
-<img src="/Resources/bjs.png">
+<img src="/99. Resources/bjs.png">
 
 ## Descripcion
 
