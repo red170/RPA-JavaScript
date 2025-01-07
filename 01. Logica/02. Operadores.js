@@ -16,14 +16,32 @@ x |= y  //Asignacion OR
 
 // Operadores Aritmeticos
 
-+ //Suma
-- //Resta
--- //Decremento
-* //Multiplicacion
-/ //Division
-** //Exponenciacion
-++ //Incremento
-% //Modulo
+a + b //Suma
+a - b//Resta
+a-- //Decremento
+a * b //Multiplicacion
+a /  //Division
+a ** b //Exponenciacion
+a++ //Incremento
+a % b//Modulo
 
-//Operadores
+// Operadores de Comparacion
+
+a == b //Igualdad
+a != b //Negacion de Igualdad
+a === b //Igualdad Estricta
+a !== b //Negacion de Igualdad Estricta
+a > b //Mayor Que
+a >= b //Mayor o Igual Que
+a < b //Menor Que
+a <= b //Menor o Igual Que
+
+// Operradores Logicos
+
+exp1 && exp2 //AND
+exp1 || exp2 //OR
+!exp1 //NOT
+
+
+
 
