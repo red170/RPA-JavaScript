@@ -8,3 +8,10 @@ while(true){
 
 //SENTENCIA CONTINUE
 // La sentencia continue termina la iteración actual de un bucle (for, while, do...while o etiquetado) y continúa con la siguiente iteración del bucle.
+
+for (let i = 0; i < 10; i++){
+    if (i === 3){
+        continue
+    }
+    console.log(i)
+}   
