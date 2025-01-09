@@ -20,6 +20,9 @@
     //Mostramos el resultado en consola
     console.log(numeroResultado)
 
-numeroResultado1 = `el primer numero es ${numero1} y el segundo es ${numero2}`
+// Concatenacion de numeros con texto (Template String)
+    //En este caso se utiliza el template string para concatenar texto con numeros colocando el texto entre comillas invertidas y las variables entre ${}
+    numeroResultado1 = `el primer numero es ${numero1} y el segundo es ${numero2}`
 
-console.log(numeroResultado1)
+    //Mostramos el resultado en consola
+    console.log(numeroResultado1)
