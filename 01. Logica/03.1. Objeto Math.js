@@ -1,71 +1,97 @@
-// Obejo Math
+// Objeto Math
+// El objeto Math nos permite realizar operaciones matematicas complejas de una manera sencilla 
 
-let numeros = [1,2,3,4,5,6,7,8,9,0,-8,199]
+    //Numeros Trascendentales
 
-let numeroDeEuler = Math.E //Numero de Euler
-console.log(numeroDeEuler)
+        //Numero de Euler
+        let numeroDeEuler = Math.E 
+        console.log(numeroDeEuler)
 
-let logaritmoNaturalDe2 = Math.LN2 // Logaritmo Natural de 2
-console.log(logaritmoNaturalDe2)
+        // Logaritmo Natural de 2
+        let logaritmoNaturalDe2 = Math.LN2 
+        console.log(logaritmoNaturalDe2)
 
-let logaritmoNaturalDe10 = Math.LN10 // Logaritmo Natural de 10
-console.log(logaritmoNaturalDe10)
+        // Logaritmo Natural de 10
+        let logaritmoNaturalDe10 = Math.LN10 
+        console.log(logaritmoNaturalDe10)
 
-let logaritmoDe2 = Math.LOG2E // Logaritmo de 2
-console.log(logaritmoDe2)
+        // Logaritmo de 2
+        let logaritmoDe2 = Math.LOG2E 
+        console.log(logaritmoDe2)
 
-let logaritmoDe10 = Math.LOG10E // Logaritmo de 10
-console.log(logaritmoDe10)
+        // Logaritmo de 10
+        let logaritmoDe10 = Math.LOG10E 
+        console.log(logaritmoDe10)
 
-let pi = Math.PI // Numero PI
-console.log(pi)
+        // Numero PI
+        let pi = Math.PI 
+        console.log(pi)
 
-let valorAbaolutoDeX = Math.abs(-1) // Devolver el Valor Absoluto de un Numero
-console.log(valorAbaolutoDeX)
+    //Operaciones Matematicas
 
-let menorValorDeSuSigno = Math.sign(-20) // Si el numero es Positivo devulve 1 si es Negativo devuelve -1
-console.log(menorValorDeSuSigno)
+        // Devolver el Valor Absoluto de un Numero
+        let valorAbaolutoDeX = Math.abs(-1) 
+        console.log(valorAbaolutoDeX)
 
-let numeroMayor = Math.max(...numeros) // Devuelve el numero mayor de un grupo de numeros
-console.log(numeroMayor)
+        // Si el numero es Positivo devulve 1 si es Negativo devuelve -1
+        let menorValorDeSuSigno = Math.sign(-20) 
+        console.log(menorValorDeSuSigno)
 
-let numeroMenor = Math.min(...numeros) // Devuelve el numero menor de un grupo de numeros
-console.log(numeroMenor)
+        // Devuelve el numero mayor de un grupo de numeros
+        let numeroMayor = Math.max(...numeros)
+        console.log(numeroMayor)
 
-let numeroPotenciado = Math.pow(2,3) // Eleva un numero a x potencia
-console.log(numeroPotenciado)
+        // Devuelve el numero menor de un grupo de numeros
+        let numeroMenor = Math.min(...numeros) 
+        console.log(numeroMenor)
 
-let raizCuadrada = Math.sqrt(9) // Raiz Cuadrada
-console.log(raizCuadrada)
+        // Raiz Cuadrada
+        let raizCuadrada = Math.sqrt(9) 
+        console.log(raizCuadrada)
 
-let raizCubica = Math.cbrt(7) // Raiz Cubica
-console.log(raizCubica)
+        // Raiz Cubica
+        let raizCubica = Math.cbrt(7) 
+        console.log(raizCubica)
+        
+        // Eleva un numero a x potencia
+        let numeroPotenciado = Math.pow(2,3) 
+        console.log(numeroPotenciado)
+        
+    //Redondeo de Numeros
 
-let redondeo = Math.round(1.9849023) // Redondea un Numero
-console.log(redondeo)
+        // Redondea un Numero
+        let redondeo = Math.round(1.9849023) 
+        console.log(redondeo)
 
-let redondeoMayor = Math.ceil(1.9849023) // Rendondea al Numero Mayor mas proximo
-console.log(redondeoMayor)
+        // Rendondea al Numero Mayor mas proximo
+        let redondeoMayor = Math.ceil(1.9849023) 
+        console.log(redondeoMayor)
 
-let redondeoMenor = Math.floor(1.9849023) // Rendondea al Numero Menor mas proximo
-console.log(redondeoMenor)
+        // Rendondea al Numero Menor mas proximo
+        let redondeoMenor = Math.floor(1.9849023) 
+        console.log(redondeoMenor)
 
-let truncadoDeNumero = Math.trunc(1.9849023) // Trunca un Numero Decimal
-console.log(truncadoDeNumero)
+        // Trunca un Numero Decimal
+        let truncadoDeNumero = Math.trunc(1.9849023) 
+        console.log(truncadoDeNumero)
 
-// Generacion de Numero Aleatorio
+    // Numeros Aleatorios en JS
 
-let numeroAleatorioBase = Math.random() // Genera un Numero Aleatorio Decimal entre 0 y 1
-console.log(numeroAleatorioBase)
+        // Genera un Numero Aleatorio Decimal entre 0 y 1
+        let numeroAleatorioBase = Math.random() 
+        console.log(numeroAleatorioBase)
 
-let numeroAleatorioAmpliado = Math.random()*20 // Genera un numero Aleatorio decimal entre 0 y el numero por el que lo multipliquemos
-console.log(numeroAleatorioAmpliado)
+        // Genera un numero Aleatorio decimal entre 0 y el numero por el que lo multipliquemos
+        let numeroAleatorioAmpliado = Math.random()*20 
+        console.log(numeroAleatorioAmpliado)
 
-let numeroAleatorioTradicional = Math.floor(Math.random()*100) // Devuelve un Numero aleatorio entero entre 0 y el numero que le indiquemos 
-console.log(numeroAleatorioTradicional)
+         // Devuelve un Numero aleatorio entero entre 0 y el numero que le indiquemos
+         let numeroAleatorioTradicional = Math.floor(Math.random()*100) 
+         console.log(numeroAleatorioTradicional)
 
-let numeroAleatorioEnRangoDefinido = Math.floor(Math.random()*(20-10)+10) // Devuelve un numero aleatorio entre un rango de numeros especificos
-console.log(numeroAleatorioEnRangoDefinido)
+         // Devuelve un numero aleatorio entre un rango de numeros especificos
+         let numeroAleatorioEnRangoDefinido = Math.floor(Math.random()*(20-10)+10) 
+         console.log(numeroAleatorioEnRangoDefinido)
 
 
 
