@@ -17,7 +17,7 @@ for (let i = 0; i < 10; i++){
 }   
 
 //SENTENCIA LABEL
-// La sentencia label proporciona una declaración de identificador para una sentencia.
+// La sentencia label proporciona una declaración de identificador para una sentencia. se llama label a la sentencia que se encuentra antes de la sentencia que se quiere identificar.
 
 outerLoop:
 for (let i = 0; i < 3; i++) {
