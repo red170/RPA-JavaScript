@@ -67,88 +67,79 @@ let palabras = ['HTML','CSS','JS','GIT','REACT']
 // Convertir un elemento a Array
     //Tomando una variable de tipo String se hace la Conversion a Array separando caracter por caracter de dos Formas
         //1. Array.from()
-            console.log(Array.from('ARRAYFROM: ' + word))
+            console.log('ARRAYFROM: ' + Array.from(word))
         //2. split()
-            console.log(word.split('SPLIT'))
+            let split = word.split('')
+            console.log('SPLIT: ' + split)
 
 //Ordenar los elementos segun el Valor Unicode
-
-console.log(letras)
-console.log(letras.sort())
-
-console.log(array)
-console.log(array.sort((a,b) => a-b))
-console.log(array.sort((a,b) => b-a))
-
-console.log(signos)
-console.log(signos.sort())
+    //Array Desordenado
+    console.log(letras)
+    //Array Ordenado usando el metodo sort()
+    console.log(letras.sort())
+    //Array Desordenado (Numeros)
+    console.log(array)
+    //Array Ordenado (Numeros) de Menor a Mayor
+    console.log(array.sort((a,b) => a-b))
+    //Array Ordenado (Numeros) de Mayor a Menor
+    console.log(array.sort((a,b) => b-a))
+    //Array Desordenado (Signos)
+    console.log(signos)
+    //Array Ordenado (Signos)
+    console.log(signos.sort())
 
 // Recorrer un array
-array.forEach((number)=> console.log(number))
-array.forEach((number,index)=> console.log(number, index))
+    //Imprimir los elementos de un array
+    array.forEach((number)=> console.log(number))
+    //Imprimir los elementos de un array con su indice
+    array.forEach((number,index)=> console.log(index + ' : ' + number))
 
-// Comprueba si ciertos elementos de un array cumplen una condicion
-
-console.log(palabras)
-console.log(palabras.some( word => word.length > 2 ))
-console.log(palabras.every( word => word.length > 2 ))
+// Comprueba si ciertos elementos de un array cumplen una condicion devuleve True o False
+    //Array a Utilizar
+    console.log(palabras)
+    //Devuelve true si alguna de las palabras tiene mas de 'n' cantidad de caracteres
+    console.log(palabras.some( word => word.length > 2 ))
+    //Devuelve true si todas las palabras tienen mas de 'n' cantidad de caracteres
+    console.log(palabras.every( word => word.length > 2 ))
 
 // Operar el contenido del contenido de un array
-
-array.map((number) => console.log(number *2))
-let multi = array.map((number) => number *2)
-console.log(multi)
+//Operando cara elemento de un array e imprimiendo el resultado en cada Iteracion
+    array.map((number) => console.log(number *2))
+    //Operando cara elemento de un array y guardando el resultado en un nuevo array
+    let multi = array.map((number) => number *2)
+    console.log(multi)
 
 // filtar los contenidos del array que cumplan una Condicion
-
-console.log(array.filter(number => number > 6))
+    console.log(array.filter(number => number > 6))
 
 //Concatenar Arrays
+    //Array a Concatenar
+    const array1 = ['a', 'b', 'c'];
+    const array2 = ['d', 'e', 'f'];
+    let array3 = ['g','h','i']
 
-const array1 = ['a', 'b', 'c'];
-const array2 = ['d', 'e', 'f'];
-let array3 = ['g','h','i']
-const array4 = array1.concat(array2,array3);
-
-console.log(array4);
+    //Concatenacion de Arrays
+    const array4 = array1.concat(array2,array3);
+    console.log(array4);
 
 // Reducir los elementos de un array a un unico valor
+    //Suma, Resta, Multiplicacion y Division de los elementos de un array hasta dejar un solo elemento
+    console.log(array.reduce((a,b) => a+b))
+    console.log(array.reduce((a,b) => a-b))
+    console.log(array.reduce((a,b) => a*b))
+    console.log(array.reduce((a,b) => a/b))
 
-console.log(array.reduce((a,b) => a+b))
-console.log(array.reduce((a,b) => a-b))
-console.log(array.reduce((a,b) => a*b))
-console.log(array.reduce((a,b) => a/b))
-
-const usuarios = [
-    {
-        name:"user1",
-        status:true
-    },
-    {
-        name:"user3",
-        status:true
-    },
-    {
-        name:"user4",
-        status:false
-    },
-    {
-        name:"user5",
-        status:false
-    },
-    {
-        name:"user6",
-        status:false
-    },
-    {
-        name:"user2",
-        status:false
-    },
-]
-
-let online = usuarios.reduce((cont,usuario) => {
-    if (usuario.status) cont++
-    return cont
-}, 0)
-
-console.log(online)
+    //Conta los elementos de un array que cumplan una condicion
+        const usuarios = [
+            {name:"user1", status:true},
+            {name:"user3", status:true},
+            {name:"user4", status:false},
+            {name:"user5", status:false},
+            {name:"user6", status:false},
+            {name:"user2", status:false},
+        ]
+        let online = usuarios.reduce((cont,usuario) => {
+            if (usuario.status) cont++
+            return cont
+        }, 0)
+        console.log(online)
