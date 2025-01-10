@@ -1,29 +1,21 @@
-const xenobladeChronicles2 = {
-    desarrollador: 'monolithSoftware',
-    publicador: 'nintendo',
-    plataforma: 'nintendoSwitch',
-    genero: 'jrpg',
-    anoDePublicacion: 2017
+//Objetos
+//Los objetos son una coleccion de propiedades, y una propiedad es una asociacion entre un nombre (o clave) y un valor. Un valor de propiedad puede ser una funcion, la cual es conocida como metodo del objeto. Ademas, las propiedades de un objeto pueden ser accesadas usando la notacion de punto o la notacion de corchetes.
 
-}
+    //Ejemplo de un objeto
+    //Los objetos se declaran con llaves {} y dentro de ellos se van especificando todos los conjuntos de clave:valor que se deseen, separados por comas.
+    const xenobladeChronicles2 = {
+        desarrollador: 'monolithSoftware',
+        publicador: 'nintendo',
+        plataforma: 'nintendoSwitch',
+        genero: 'jrpg',
+        anoDePublicacion: 2017
 
-// console.log(xenobladeChronicles2)
-// console.log(xenobladeChronicles2.desarrollador)
-// console.log(xenobladeChronicles2.publicador)
-// console.log(xenobladeChronicles2.plataforma)
-// console.log(xenobladeChronicles2.genero)
-// console.log(xenobladeChronicles2.anoDePublicacion)
+    }
 
-let pc = {
-    nombre: 'PC-170',
-    procesador: 'i5',
-    ram: '16GB',
-    hdd1: '500GB',
-    hdd2: '1TB'
-}
+    //Maneras de Mostar un Objeto
+    
+    //Mostrar el objeto completo
+    console.log(xenobladeChronicles2)
 
-console.log(pc)
-console.log(pc['nombre'])
-
-let frase = `el nombre de mi pc es ${pc.nombre} y tiene un procesador ${pc.procesador}`
-console.log(frase)
+    //Mostrar el valor de una propiedad especifica del objeto
+    console.log(xenobladeChronicles2.desarrollador)
