@@ -1,157 +1,36 @@
-class videojuego{
+//Clases
+//Las clases son una plantilla para crear objetos, en JS se implementaron a partir de la version ES6 sirven para crear objetos con propiedades y metodos. Las clases se declaran con la palabra reservada class seguida del nombre de la clase, las clases pueden tener un constructor que es un metodo especial que se ejecuta en el momento de instanciar la clase, el constructor recibe los parametros que se le pasan al momento de instanciar la clase. Las clases tambien pueden tener metodos que son funciones que se pueden ejecutar en los objetos creados a partir de la clase. Para crear un objeto a partir de una clase se utiliza la palabra reservada new seguida del nombre de la clase y los parametros que recibe el constructor de la clase.
 
-    constructor(nombre,desarrolladora,publicadora,anoDeLanzamiento,genero,personajes){ // Porpiedades de la Clase
-        this.clave1 = nombre
-        this.clave2 = desarrolladora
-        this.clave3 = publicadora
-        this.clave4 = anoDeLanzamiento
-        this.clave5 = genero
-        this.clave6 = personajes
-    }
+    //Ejemplo de la Creacion de una Clase
+        class videojuego{ //Se declaran las clases con la palabra reservada 'class' seguida del nombre de la clase en este caso 'videojuego'
 
-    showgame(){ // Metodos de la Clase
-        return `El Juego ${this.clave1} esta desarrollado por ${this.clave2} y publicado por ${this.clave3} se lanzo en el año ${this.clave4} pertenece al genero ${this.clave5} y entre sus personajes podemos mencionar a ${this.clave6}`
-    }
+            //Constrcutor de la Clase
+            constructor(nombre,desarrolladora,publicadora,anoDeLanzamiento,genero,personajes){ //Se declara el constructor de la clase que es un metodo especial que se ejecuta en el momento de instanciar la clase, el constructor recibe los parametros que se le pasan al momento de instanciar la clase.
+                this.clave1 = nombre
+                this.clave2 = desarrolladora
+                this.clave3 = publicadora
+                this.clave4 = anoDeLanzamiento
+                this.clave5 = genero
+                this.clave6 = personajes
+            }
 
-}
+            //Metodos de la Clase
+            showgame(){//Se declara un metodo de la clase que es una funcion que se puede ejecutar en los objetos creados a partir de la clase. 
+                return `El Juego ${this.clave1} esta desarrollado por ${this.clave2} y publicado por ${this.clave3} se lanzo en el año ${this.clave4} pertenece al genero ${this.clave5} y entre sus personajes podemos mencionar a ${this.clave6}`
+            }
+        }
 
-// Creacion de Nuevo Objeto
+    // Creacion de Nuevo Objeto
+        //Para crear un objeto a partir de una clase se utiliza la palabra reservada new seguida del nombre de la clase y los parametros que recibe el constructor de la clase.
+        let XC2 = new videojuego('Xenoblade Chronicles 2','Monolith Software','Nintendo',2017,'JRPG',['REX','NIA','PYRA','TORAH'])
 
-let XC2 = new videojuego('Xenoblade Chronicles 2','Monolith Software','Nintendo',2017,'JRPG',['REX','NIA','PYRA','TORAH'])
-console.log(XC2)
+        //Mostrar el Objeto
+        console.log(XC2)
 
-console.log(XC2.showgame())
-
-
-
-
-// *(EJERCICIO)*
-
-class Libro {
-    constructor(nombre, autor, ano, genero) {
-        this.nombre = nombre;
-        this.autor = autor;
-        this.ano = ano;
-        this.genero = genero;
-    }
-
-    presentacionLibro() {
-        return `El Libro ${this.nombre} pertenece a ${this.autor}, fue escrito en el año ${this.ano} y pertenece al género ${this.genero}`;
-    }
-
-    devolverNombre(){
-        return this.nombre
-    }
-
-    devolverAutor(){
-        return this.autor
-    }
-
-    devolverAno(){
-        return this.ano
-    }
-
-    devolverGenero(){
-        return this.genero
-    }
-}
-
-let nombresLibros = [
-    "Cien años de soledad",
-    "El Señor de los Anillos",
-    "Harry Potter y la Piedra Filosofal",
-    "Crimen y castigo",
-    "El principito",
-    "Don Quijote de la Mancha",
-    "Orgullo y prejuicio",
-    "1984",
-    "La Odisea",
-    "Moby Dick"
-];
-
-let autores = [
-    "Gabriel García Márquez",
-    "J.R.R. Tolkien",
-    "J.K. Rowling",
-    "Fyodor Dostoevsky",
-    "Antoine de Saint-Exupéry",
-    "Miguel de Cervantes",
-    "Jane Austen",
-    "George Orwell",
-    "Homero",
-    "Herman Melville"
-];
-
-let generos = ["FANTASIA", "AVENTURA", "TERROR"];
+        //Mostrar el Metodo de la Clase
+        console.log(XC2.showgame())
 
 
-
-let arrayLibros = [];
-
-while (arrayLibros.length < 3) {
-
-    let ingresarNombre = nombresLibros[Math.floor(Math.random() * nombresLibros.length)];
-    let ingresarAutor = autores[Math.floor(Math.random() * autores.length)];
-    let ingresarAno = Math.floor(Math.random() * (2022 - 1900 + 1)) + 1900;
-    let ingresarGenero = generos[Math.floor(Math.random() * generos.length)];
-
-    if (ingresarNombre !== '' 
-    && ingresarAutor !== '' 
-    && !isNaN(ingresarAno) 
-    && ingresarAno.toString().length === 4 &&
-        (ingresarGenero === 'FANTASIA' || ingresarGenero === 'AVENTURA' || ingresarGenero === 'TERROR')) {
-
-        arrayLibros.push(new Libro(ingresarNombre, ingresarAutor, ingresarAno, ingresarGenero));
-        console.log('¡Ingresado!');
-    } else {
-        console.log('¡Error!');
-    }
-}
-
-
-mostrarLibros()
-function mostrarLibros() {
-    console.log(arrayLibros);
-}
-
-mostrarDatoEspecificoLibro()
-function mostrarDatoEspecificoLibro() {
-    for (let libro of arrayLibros){
-        console.log(libro.autor)
-    }
-}
-
-mostrarDatoEspecificoLibro1()
-function mostrarDatoEspecificoLibro1() {
-    for (let libro of arrayLibros){
-        console.log(libro.devolverAutor())
-}}
-
-
-mostarDatosOrdenadosLibro()
-function mostarDatosOrdenadosLibro(){
-    
-    let datosOrdenados = []
-
-    for (let libro of arrayLibros){
-        datosOrdenados.push(libro.devolverAutor())
-    }
-
-    console.log(datosOrdenados.sort())
-
-}
-
-obtenerInfoAPartirDeDato();
-function obtenerInfoAPartirDeDato() {
-    let dato = '1984'
-    
-    for (let libro of arrayLibros) {
-      if (libro.devolverNombre() === dato) {
-        console.log(libro.presentacionLibro());
-        return;
-      }
-    }
-}
 
 
 
