@@ -6,57 +6,70 @@ let palabras = ['HTML','CSS','JS','GIT','REACT']
 
 
 // Propiedades
+//Las propiedades son valores que se pueden acceder desde un objeto o arreglo
 
-let longitud = array.length // Devulve la cantidad de elementos en un arreglo
-console.log(longitud)
+    //Longitud
+    let longitud = array.length 
+    console.log(longitud)
 
-// METODOS BASICOS
+// Metodos Basicos
+//Los metodos son funciones que se pueden aplicar a un objeto o arreglo
 
-array.shift() // Devulve el Primer elemento del arreglo
-console.log(array)
+    // Devulve el Primer elemento del arreglo
+    array.shift() 
+    console.log('SHIFT: ' + array)
 
-array.pop() // Devulve el Ultimo elemento del arreglo
-console.log(array)
+    // Devulve el Ultimo elemento del arreglo
+    array.pop() 
+    console.log('POP' + array)
 
-array.push(10,11) // Agregar Elementos a un arreglo
-console.log(array)
+    // Agregar Elementos a un arreglo
+    array.push(10,11) 
+    console.log('POP: ' + array)
 
-array.unshift(1)// Agrega un elemento nuevo al inicio
-console.log(array)
+    // Agrega un elemento nuevo al inicio
+    array.unshift(1)
+    console.log('UNSHIFT: ' + array)
 
-let indice = array.indexOf(7) // Devuelve el elemento segun el indice especificado (contando de derecha a izquierda)
-console.log(indice)
+    // Devuelve el elemento segun el indice especificado dentro del Parametro
+    let indice = array.indexOf(7) 
+    console.log('INDEXOF: ' + indice)
 
-let indiceInverso = array.lastIndexOf(7) // Devuelve el elemento segun el indice especificado (contando de izquierda a derecha)
-console.log(indiceInverso)
+    // Devuelve el elemento segun el indice especificado dentro del Parametro pero en sentido inverso
+    let indiceInverso = array.lastIndexOf(7) 
+    console.log('LASTINDEXOF: ' + indiceInverso)
 
-let arrayInvertido = array.reverse() // Invierte el orden de los elementos del arreglo
-console.log(arrayInvertido)
+    // Invierte el orden de los elementos del arreglo
+    let arrayInvertido = array.reverse() 
+    console.log('REVERSE: ' + arrayInvertido)
 
-let arrayConversionAString = array.join('/') // Convierte el arreglo a String y lo que indiquemos en el parametro servira como separador
-console.log(arrayConversionAString)
+    // Convierte el arreglo a String y lo que indiquemos en el parametro servira como separador
+    let arrayConversionAString = array.join('/') 
+    console.log('TOSTRING: ' + arrayConversionAString)
 
-array.splice(1,0,17)
-console.log(array)
-// PRIMER PARAMETRO: indica desde que posicion empezara la modificacion del arreglo
-// SEGUNDO PARAMETRO: 
-//  - CASO 1 (CUANDO TIENE UN NUMERO): ese numero indica que desde el la posicion indicada en en primer numero hasta la posicion indicada en etse numero se eliminaran los elementos
-//  - CASO 2 (CUANDO EL VALOR ES CERO): no eliminara nada pero servira para indicar que los valores nuevos (explicacion de tercer parametro) se ubicaran en el lugar especificado en el primer parametro
-// TERCER, CUARTO, QUINTO ... PARAMETRO: son nuevos elementos que se agregaran haciendo uso de los parametros anteriores
+    //Extraer una parte del arreglo siendo el primero parametro desde donde empieza el nuevo sub-arreglo y el segundo parametro hasta donde termina
+    let corte = array.slice(2,7) 
+    console.log('SLICE: ' + corte)
 
+    // Elimina elementos del arreglo segun los parametros indicados
+        // PRIMER PARAMETRO: indica desde que posicion empezara la modificacion del arreglo
+        // SEGUNDO PARAMETRO: 
+            //  - CASO 1 (CUANDO TIENE UN NUMERO): ese numero indica que desde el la posicion indicada en en primer numero hasta la posicion indicada en etse numero se eliminaran los elementos
+            //  - CASO 2 (CUANDO EL VALOR ES CERO): no eliminara nada pero servira para indicar que los valores nuevos (explicacion de tercer parametro) se ubicaran en el lugar especificado en el primer parametro
+        // TERCER, CUARTO, QUINTO ... PARAMETRO: son nuevos elementos que se agregaran haciendo uso de los parametros anteriores
+    array.splice(1,0,17)
+    console.log('SPLICE: ' + array)
 
-let corte = array.slice(2,7) //Devuleve un segmento del arreglo siendo los parametros (Posicion Inicial, Posicion Final)
-console.log(corte)
-
-
-
-// METODOS AVANZADOS
+// Metodos Avanzados
+//Los metodos son funciones que se pueden aplicar a un objeto o arreglo
 
 
 // Convertir un elemento a Array
-console.log(Array.from(word))
-
-console.log(word.split(''))
+    //Tomando una variable de tipo String se hace la Conversion a Array separando caracter por caracter de dos Formas
+        //1. Array.from()
+            console.log(Array.from('ARRAYFROM: ' + word))
+        //2. split()
+            console.log(word.split('SPLIT'))
 
 //Ordenar los elementos segun el Valor Unicode
 
