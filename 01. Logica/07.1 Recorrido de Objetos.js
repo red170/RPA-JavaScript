@@ -1,33 +1,44 @@
-const xenobladeChronicles2 = {
-    desarrollador: 'monolithSoftware',
-    publicador: 'nintendo',
-    plataforma: 'nintendoSwitch',
-    genero: 'jrpg',
-    anoDePublicacion: 2017,
-    personajes: ['Rex','Pyra/Mythra','Nia','Torah','Zeke' ]
+//Recorrido de Objetos
+//Para recorrer un objeto se puede hacer uso de la estructura de control for...in, la cual nos permite recorrer las propiedades de un objeto.
 
-}
+    //Objeto de Recorrer
+    const xenobladeChronicles2 = {
+        desarrollador: 'monolithSoftware',
+        publicador: 'nintendo',
+        plataforma: 'nintendoSwitch',
+        genero: 'jrpg',
+        anoDePublicacion: 2017,
+        personajes: ['Rex','Pyra/Mythra','Nia','Torah','Zeke' ]
 
-for(let claves in xenobladeChronicles2){ // Recorrer el Obejto y Imprimir las Claves de cada Atributo/Acccion
-    console.log(claves)
-}
+    }
 
-for (let valores in xenobladeChronicles2){ // Recorrer el Objeto y Imprimir los Valores de cada Atributo/Accion
-    console.log(xenobladeChronicles2[valores])
-}
+    // Recorrer el Obejto y Imprimir las Claves de cada par Clave:Valor
+    for(let claves in xenobladeChronicles2){ 
+        console.log(claves)
+    }
 
-for (let valorArray in xenobladeChronicles2.personajes){ // Recorrer el objeto e Imprimir los indices de un array que esta funcionando como valor de un Atributo/Accion
-    console.log(valorArray)
-}
+    // Recorrer el Objeto y Imprimir los Valores de par Clave:Valor
+    for (let valores in xenobladeChronicles2){ 
+        console.log(xenobladeChronicles2[valores])
+    }
 
-for (let valorArray of xenobladeChronicles2.personajes){ // Recorrer el Objeto y Imprimir un Array que esta funcionando como Atributo/Accion
-    console.log(valorArray)
-}
+    // Recorre e Imprimir los indices de un array que esta funcionando como valor de una pareja Clave:Valor
+    for (let valorArray in xenobladeChronicles2.personajes){ 
+        console.log(valorArray)
+    }
 
-for (let valorArray in xenobladeChronicles2.desarrollador){ // Recorrer el Objeto e imprimir cada carater de un valor (del Atributo) como Indice 
-    console.log(valorArray)
-}
+    // Recorre e imprime los indices de cada caracter de un Valor de una pareja Clave:Valor
+    for (let valorArray in xenobladeChronicles2.desarrollador){ 
+        console.log(valorArray)
+    }
 
-for (let valorArray of xenobladeChronicles2.desarrollador){ // Recorrer un valor de un Atributo/Accion
-    console.log(valorArray)
-}
+    // Recorre un valor de una Pareja Clave:Valor que es un Array e imprime cada valor de dicho Array
+    for (let valorArray of xenobladeChronicles2.personajes){ 
+        console.log(valorArray)
+    }
+
+    // Recorre un valor de una Pareja Clave:Valor que es un string e imprime Caracter por Caracter de dicho String
+    for (let valorArray of xenobladeChronicles2.desarrollador){ 
+        console.log(valorArray)
+    }
+
