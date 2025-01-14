@@ -1,65 +1,72 @@
 // Ejercicio 1: Número Par o Impar
     // Escribe un programa que pida al usuario un número y determine si es par o impar utilizando una estructura if-else.
-        let numero = 2
+        // let numero = 2
 
-        if ((numero % 2) === 0)
-        {
-        console.log('Es Par')
-        }
-        else
-        {
-        console.log('Es Impar')
-        }
+        // if ((numero % 2) === 0)
+        // {
+        // console.log('Es Par')
+        // }
+        // else
+        // {
+        // console.log('Es Impar')
+        // }
 
 // Ejercicio 2: Calificación
     // Escribe un programa que pida al usuario una calificación (número entre 0 y 100) y muestre una letra de calificación (A, B, C, D, F) utilizando if-else if-else.
 
-        let calificacion = 210
+        // let calificacion = 210
 
-        if (calificacion <= 100 && calificacion >= 80){
-        console.log('Cartegoria A')
-        }
-        else if (calificacion <= 79 && calificacion >= 60){
-        console.log('Cartegoria B')
-        }
-        else if (calificacion <= 59 && calificacion >= 40){
-        console.log('Cartegoria C')
-        }
-        else if (calificacion <= 39 && calificacion >= 20){
-        console.log('Cartegoria D')
-        }
-        else if (calificacion <= 19 && calificacion >= 0){
-        console.log('Cartegoria E')
-        }
-        else if (calificacion >= 101){
-        console.log('Fuera de Rango')
-        }
-        else if (calificacion < 0){
-        console.log('Fuera de Rango')
-        }
+        // if (calificacion <= 100 && calificacion >= 80){
+        // console.log('Cartegoria A')
+        // }
+        // else if (calificacion <= 79 && calificacion >= 60){
+        // console.log('Cartegoria B')
+        // }
+        // else if (calificacion <= 59 && calificacion >= 40){
+        // console.log('Cartegoria C')
+        // }
+        // else if (calificacion <= 39 && calificacion >= 20){
+        // console.log('Cartegoria D')
+        // }
+        // else if (calificacion <= 19 && calificacion >= 0){
+        // console.log('Cartegoria E')
+        // }
+        // else if (calificacion >= 101){
+        // console.log('Fuera de Rango')
+        // }
+        // else if (calificacion < 0){
+        // console.log('Fuera de Rango')
+        // }
 
 // Ejercicio 3: Contador de Números
     // Escribe un programa que imprima los números del 1 al 100 utilizando un bucle for.
 
-        for (let i=1;i<101;i++){
-            console.log(i)
-        }
+        // for (let i=1;i<101;i++){
+        //     console.log(i)
+        // }
 
 // Ejercicio 4: Suma de Números
     // Escribe un programa que sume los números del 1 al 10 utilizando un bucle while y muestre el resultado.
 
-        let suma = 0;
-        let i = 1;
+        // let suma = 0;
+        // let i = 1;
 
-        while (i <= 10) {
-        suma += i;
-        i++;
-        }
+        // while (i <= 10) {
+        // suma += i;
+        // i++;
+        // }
 
-        console.log("La suma de los números del 1 al 10 es:", suma);
+        // console.log("La suma de los números del 1 al 10 es:", suma);
 
 // Ejercicio 5: Tabla de Multiplicar
 // Escribe un programa que pida al usuario un número y muestre su tabla de multiplicar del 1 al 10 utilizando un bucle for.
+
+let numero1 = 2
+
+for (let i = 1; i <= 10; i++){
+  let res = numero1 * i
+  console.log(`el numero ${numero1} por ${i} es ${res}`)
+}
 
 // Ejercicio 6: Factorial
 // Escribe un programa que pida al usuario un número y calcule su factorial utilizando un bucle for.
