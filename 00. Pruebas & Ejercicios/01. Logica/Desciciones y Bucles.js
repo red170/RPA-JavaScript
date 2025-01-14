@@ -46,9 +46,17 @@
         }
 
 // Ejercicio 4: Suma de Números
-// Escribe un programa que sume los números del 1 al 10 utilizando un bucle while y muestre el resultado.
+    // Escribe un programa que sume los números del 1 al 10 utilizando un bucle while y muestre el resultado.
 
+        let suma = 0;
+        let i = 1;
 
+        while (i <= 10) {
+        suma += i;
+        i++;
+        }
+
+        console.log("La suma de los números del 1 al 10 es:", suma);
 
 // Ejercicio 5: Tabla de Multiplicar
 // Escribe un programa que pida al usuario un número y muestre su tabla de multiplicar del 1 al 10 utilizando un bucle for.
