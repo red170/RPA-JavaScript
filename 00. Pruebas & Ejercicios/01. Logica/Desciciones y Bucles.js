@@ -84,6 +84,26 @@
 // Ejercicio 7: Números Primos
 // Escribe un programa que imprima todos los números primos entre 1 y 100 utilizando un bucle for y una estructura if.
 
+let numero2 = 98;
+
+if (numero2 > 3) {
+    if ((numero2 % numero2) === 0) {
+        console.log('es divisible entre sí mismo');
+        if (numero2 % 1 === 0) {
+            console.log('es divisible entre 1');
+            if ((numero2 % 2) === 0) {
+                console.log('Es divisible entre 2');
+                console.log('No es Primo');
+            } else {
+                console.log('Es Primo');
+            }
+        }
+    } else {
+        console.log('Es Primo');
+    }
+} else {
+    console.log('Es Primo');
+}
 
 // Ejercicio 8: Adivina el Número
 // Escribe un programa que genere un número aleatorio entre 1 y 100 y permita al usuario adivinarlo. El programa debe dar pistas si el número es mayor o menor hasta que el usuario lo adivine, utilizando un bucle while.
@@ -92,23 +112,23 @@
 // Ejercicio 9: Suma de Elementos de un Array
     // Escribe un programa que sume todos los elementos de un array de números utilizando un bucle for.
 
-        numeros = [1,2,3,4,5,6,7,8,9,10]
-        let total = 0
+        // numeros = [1,2,3,4,5,6,7,8,9,10]
+        // let total = 0
 
-        for (let i = 1; i < numeros.length; i++){
-        total += numeros[i]
-        }
-        console.log(`la suma total de los elementos del array es de ${total}`)
+        // for (let i = 1; i < numeros.length; i++){
+        // total += numeros[i]
+        // }
+        // console.log(`la suma total de los elementos del array es de ${total}`)
 
 // Ejercicio 10: Palíndromo
     // Escribe un programa que pida al usuario una palabra y determine si es un palíndromo (se lee igual de adelante hacia atrás) utilizando un bucle for y una estructura if.
 
-        let palabra = 'camello'
-        let palabraInvertido = palabra.split('').reverse().join('');
+        // let palabra = 'arap'
+        // let palabraInvertido = palabra.split('').reverse().join('');
         
-        if (palabra != palabraInvertido){
-        console.log('no es palindromo')
-        }
-        else{
-        console.log('es palindromo')
-        }
+        // if (palabra === palabraInvertido){
+        // console.log('es palindromo')
+        // }
+        // else{
+        // console.log('no es palindromo')
+        // }
