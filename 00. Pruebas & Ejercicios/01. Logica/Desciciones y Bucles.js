@@ -82,28 +82,27 @@
         console.log(`el resultado del factorial de ${factorial} es ${resultado}`)
 
 // Ejercicio 7: Números Primos
-// Escribe un programa que imprima todos los números primos entre 1 y 100 utilizando un bucle for y una estructura if.
+    // Escribe un programa que imprima todos los números primos entre 1 y 100 utilizando un bucle for y una estructura if.
 
-let numero2 = 98;
+        let numero2 = 5;
 
-if (numero2 > 3) {
-    if ((numero2 % numero2) === 0) {
-        console.log('es divisible entre sí mismo');
-        if (numero2 % 1 === 0) {
-            console.log('es divisible entre 1');
-            if ((numero2 % 2) === 0) {
-                console.log('Es divisible entre 2');
-                console.log('No es Primo');
-            } else {
-                console.log('Es Primo');
-            }
+        if (numero2 <= 0){
+            console.log('Numero Invalido')
         }
-    } else {
-        console.log('Es Primo');
-    }
-} else {
-    console.log('Es Primo');
-}
+        else if (numero2 === 3 || numero2 === 2) {
+            console.log('Es Primo');
+        }
+        else if((numero2 % numero2) === 0 )
+        {
+            if (numero2 % 1 === 0){
+                if ((numero2 % 2) === 0){ 
+                    console.log('No es Primo');
+                }else{
+                    console.log('Es Primo');
+                }
+            }
+
+        }
 
 // Ejercicio 8: Adivina el Número
 // Escribe un programa que genere un número aleatorio entre 1 y 100 y permita al usuario adivinarlo. El programa debe dar pistas si el número es mayor o menor hasta que el usuario lo adivine, utilizando un bucle while.
