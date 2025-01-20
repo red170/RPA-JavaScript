@@ -52,5 +52,29 @@
 // Ejercicio 2: Generador de contraseñas seguras
 	// Objetivo: Crear una función que genere contraseñas seguras de una longitud determinada. La contraseña debe incluir al menos una mayúscula, una minúscula, un número y un carácter especial.
 
+		function pass(){
+			
+			let claveNueva = []
+			let longitud = claveNueva.length
+			let caracteres = [
+				'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+				'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+				'0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+				'~', '`', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', '-', '=', '{', '}', '[', ']', '|', ':', ';', '"', '<', ',', '.', '>', '/', '?'
+			];
+
+			while(longitud< 8){
+				let random = Math.floor(Math.random()*caracteres.length) 
+				claveNueva.push(caracteres[random])
+				longitud = claveNueva.length
+
+			}
+
+			alert(claveNueva.join(''));
+
+		}
+
+		pass()
+
 // Ejercicio 3: Juego de adivinar el número
 	// Objetivo: Crear una función que simule un juego donde la computadora elige un número aleatorio entre 1 y 100 y el usuario debe adivinarlo. La función debe indicar si el número ingresado por el usuario es mayor, menor o igual al número secreto.
