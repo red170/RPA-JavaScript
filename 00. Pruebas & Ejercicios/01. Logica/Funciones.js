@@ -78,3 +78,25 @@
 
 // Ejercicio 3: Juego de adivinar el número
 	// Objetivo: Crear una función que simule un juego donde la computadora elige un número aleatorio entre 1 y 100 y el usuario debe adivinarlo. La función debe indicar si el número ingresado por el usuario es mayor, menor o igual al número secreto.
+
+		function adivinaNumero(){
+			let random = Math.floor(Math.random() * 100) + 1
+			let userNumero
+		
+			do{
+				console.log(random)
+				userNumero= prompt(`ingresa un numero ${random}`)
+		
+				if(userNumero > random){
+					alert('el numero es mayor')
+				}
+				else if(userNumero < random){
+					alert('el numero es menor')
+				}
+		
+			}while(userNumero != random)
+		
+				alert('acertaste!!!')
+		}
+		
+		adivinaNumero()
