@@ -56,10 +56,28 @@
 
 // Manipulación avanzada:
 
-    // Validar un correo electrónico: Crea una función que valide si una cadena de texto tiene el formato de un correo electrónico válido.
-
     // Capitalizar la primera letra de cada palabra: Escribe una función que capitalice la primera letra de cada palabra en una cadena.
 
     // Eliminar espacios en blanco: Crea una función que elimine todos los espacios en blanco al principio y al final de una cadena.
+        let espacios = 'joifds ijudfiouis ui ui u u u oo '
+
+        let sinEspacio = []
+
+        for (let letras of espacios){
+            if (letras != ' '){
+                sinEspacio.push(letras)
+            }
+        }
+
+        console.log(sinEspacio.join(''))
 
     // Verificar si una cadena es un palíndromo: Escribe una función que determine si una cadena es un palíndromo (se lee igual de izquierda a derecha que de derecha a izquierda)
+        let palindromo = 'radar'
+
+        let invertido1 = palindromo.split('').reverse().join('')
+        if(invertido1 === palindromo){
+            console.log('es palindromo')
+        }
+        else{
+            console.log('no es palindromo')
+        }

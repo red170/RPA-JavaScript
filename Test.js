@@ -1,14 +1,11 @@
-let string4 = 'oscarernestoportillo'
-let stringReemplazo = []
+let espacios = 'joifds ijudfiouis ui ui u u u oo '
 
-for (let letras of string4){
-    if (letras === 'o'){
-        letras = '4'
-        stringReemplazo.push(letras)
-    }
-    else{
-        stringReemplazo.push(letras)
+let sinEspacio = []
+
+for (let letras of espacios){
+    if (letras != ' '){
+        sinEspacio.push(letras)
     }
 }
 
-console.log(stringReemplazo.join(''))
+console.log(sinEspacio.join(''))
