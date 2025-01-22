@@ -17,6 +17,16 @@
         console.log(invertido)
 
     // Contar vocales: Escribe una función que cuente el número de vocales en una cadena dada.
+        let string2 = 'ernestoportillo'
+        let contador = 0
+        for (let vocal of string2){
+            
+            if (vocal.includes('o')){
+                contador++
+            }
+
+        }
+        console.log(contador)
 
     // Convertir a mayúsculas y minúsculas: Crea un programa que pida al usuario una cadena y la convierta a mayúsculas y luego a minúsculas.
     
