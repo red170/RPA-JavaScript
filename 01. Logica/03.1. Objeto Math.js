@@ -75,6 +75,11 @@
         let truncadoDeNumero = Math.trunc(1.9849023) 
         console.log(truncadoDeNumero)
 
+        //Devolver un Decimal con una cantidad exacta de Numeros Decimales
+        let truncadoEspecifico = Math.PI.toFixed(2)
+        console.log(truncadoDeNumero)
+
+
     // Numeros Aleatorios en JS
 
         // Genera un Numero Aleatorio Decimal entre 0 y 1
