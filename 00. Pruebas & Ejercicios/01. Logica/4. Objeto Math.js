@@ -35,6 +35,17 @@
 
 // 4. Generar un número aleatorio entre 0 y 1 con un número específico de decimales:
 // Crea una función que tome un número como parámetro y genere un número aleatorio entre 0 y 1 con ese número de decimales.
+    function generarNumeroAleatorio(decimales) {
+        let numeroAleatorio = Math.random();
+        return parseFloat(numeroAleatorio.toFixed(decimales));
+    }
+
+    let decimales = 3;
+    let numeroAleatorio = generarNumeroAleatorio(decimales);
+
+    console.log(numeroAleatorio);
 
 // 5. Simular el lanzamiento de un dado:
 // Crea una función que simule el lanzamiento de un dado de seis caras y devuelva el número obtenido.
+    let dado = Math.floor(Math.random()*6) 
+    console.log(`El Numero del Dado es ${dado}`)
