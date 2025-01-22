@@ -57,6 +57,15 @@
 // Manipulación avanzada:
 
     // Capitalizar la primera letra de cada palabra: Escribe una función que capitalice la primera letra de cada palabra en una cadena.
+        let Nombres = ['oscar', 'ernesto', 'lopez', 'portillo'];
+
+        function capitalize(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        for (let nombre of Nombres) {
+            console.log(capitalize(nombre));
+        }
 
     // Eliminar espacios en blanco: Crea una función que elimine todos los espacios en blanco al principio y al final de una cadena.
         let espacios = 'joifds ijudfiouis ui ui u u u oo '
