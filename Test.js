@@ -1,8 +1,14 @@
-let stringMauys = 'OSCARERNESTOPORTILLO'
-let stringMinus = 'oscarernestoportillo'
+let string4 = 'oscarernestoportillo'
+let stringReemplazo = []
 
-let convertidoMayus = stringMinus.toUpperCase()
-console.log(convertidoMayus)
+for (let letras of string4){
+    if (letras === 'o'){
+        letras = '4'
+        stringReemplazo.push(letras)
+    }
+    else{
+        stringReemplazo.push(letras)
+    }
+}
 
-let convertidoMinus = stringMauys.toLowerCase()
-console.log(convertidoMinus)
+console.log(stringReemplazo.join(''))

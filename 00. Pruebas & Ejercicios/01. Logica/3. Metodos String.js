@@ -29,8 +29,30 @@
         console.log(contador)
 
     // Convertir a mayúsculas y minúsculas: Crea un programa que pida al usuario una cadena y la convierta a mayúsculas y luego a minúsculas.
-    
+        let stringMauys = 'OSCARERNESTOPORTILLO'
+        let stringMinus = 'oscarernestoportillo'
+
+        let convertidoMayus = stringMinus.toUpperCase()
+        console.log(convertidoMayus)
+
+        let convertidoMinus = stringMauys.toLowerCase()
+        console.log(convertidoMinus)
+        
     // Reemplazar palabras: Escribe una función que reemplace todas las ocurrencias de una palabra en una cadena por otra.
+        let string4 = 'oscarernestoportillo'
+        let stringReemplazo = []
+
+        for (let letras of string4){
+            if (letras === 'o'){
+                letras = '4'
+                stringReemplazo.push(letras)
+            }
+            else{
+                stringReemplazo.push(letras)
+            }
+        }
+
+        console.log(stringReemplazo.join(''))
 
 // Manipulación avanzada:
 
