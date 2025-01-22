@@ -1,6 +1,20 @@
 // Manipulación básica:
 
     // Invertir una cadena: Crea una función que tome una cadena como entrada y devuelva la cadena invertida.
+        //Metodo sin Metodos de String
+        let string = 'pueblo'
+        let invertida =''
+
+        for (let i=string.length -1 ;i>=0;i--){
+        invertida += string[i]
+        }
+
+        console.log(invertida)
+
+        //Metodo con Metodos de String
+        let string1 = 'pueblo'
+        let invertido = string1.split('').reverse().join('')
+        console.log(invertido)
 
     // Contar vocales: Escribe una función que cuente el número de vocales en una cadena dada.
 
