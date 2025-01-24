@@ -64,4 +64,15 @@
                 }
 
 // 5. Clasificar un número:
-// Escribe un programa que pida al usuario un número y determine si es positivo, negativo o cero. Utiliza una estructura condicional para mostrar el resultado correspondiente.
+    // Escribe un programa que pida al usuario un número y determine si es positivo, negativo o cero. Utiliza una estructura condicional para mostrar el resultado correspondiente.
+        let numero3= -1
+
+                if (numero3 >= 1){
+                    console.log('positivo')
+                }
+                else if (numero3 == 0){
+                    console.log('cero')
+                }
+                else if (numero3 <= -1){
+                    console.log('negativo')
+                }
