@@ -47,7 +47,21 @@
         }
 
 // 4. Simulador de un semáforo:
-// Crea un programa que simule un semáforo. Utiliza una estructura condicional para mostrar un mensaje diferente según el color del semáforo (rojo, amarillo, verde).
+    // Crea un programa que simule un semáforo. Utiliza una estructura condicional para mostrar un mensaje diferente según el color del semáforo (rojo, amarillo, verde).
+        let color= 'rojo'
+
+                if (color == 'rojo'){
+                    console.log('ALTO')
+                }
+                else if (color == 'amarillo'){
+                    console.log('REDUCE VELOCIDAD')
+                }
+                else if (color == 'verde'){
+                    console.log(`PASA`)
+                }
+                else{
+                    console.log('no aplica')
+                }
 
 // 5. Clasificar un número:
 // Escribe un programa que pida al usuario un número y determine si es positivo, negativo o cero. Utiliza una estructura condicional para mostrar el resultado correspondiente.
