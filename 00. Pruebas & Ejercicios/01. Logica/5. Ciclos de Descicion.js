@@ -33,7 +33,18 @@
         }
 
 // 3. Calcular el descuento de una compra:
-// Crea un programa que calcule el precio final de una compra aplicando un descuento según el monto total. Utiliza una estructura condicional para determinar el porcentaje de descuento a aplicar. Por ejemplo, si el monto es mayor a $100, aplica un 10% de descuento.
+    // Crea un programa que calcule el precio final de una compra aplicando un descuento según el monto total. Utiliza una estructura condicional para determinar el porcentaje de descuento a aplicar. Por ejemplo, si el monto es mayor a $100, aplica un 10% de descuento.
+        let totalDeCompra = 100
+
+        if (totalDeCompra >= 100 && totalDeCompra<=199){
+            console.log(`el precio con descuento aplicado del 80% es de ${(totalDeCompra/100)*80}`)
+        }
+        else if (totalDeCompra >= 200){
+            console.log(`el precio con descuento aplicado de mitad de precio es de ${(totalDeCompra/100)*50}`)
+        }
+        else{
+            console.log('no aplica')
+        }
 
 // 4. Simulador de un semáforo:
 // Crea un programa que simule un semáforo. Utiliza una estructura condicional para mostrar un mensaje diferente según el color del semáforo (rojo, amarillo, verde).

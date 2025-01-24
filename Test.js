@@ -1,8 +1,11 @@
-let numero = 3
+let totalDeCompra = 100
 
-if ((numero % 2)==0){
-    console.log('es par')
+if (totalDeCompra >= 100 && totalDeCompra<=199){
+    console.log(`el precio con descuento aplicado del 80% es de ${(totalDeCompra/100)*80}`)
+}
+else if (totalDeCompra >= 200){
+    console.log(`el precio con descuento aplicado de mitad de precio es de ${(totalDeCompra/100)*50}`)
 }
 else{
-    console.log('es impar')
+    console.log('no aplica')
 }
