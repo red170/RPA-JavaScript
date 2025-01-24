@@ -1,5 +1,25 @@
 // 1. Calculadora básica con operaciones:
-// Crea un programa que pida al usuario dos números y una operación (+, -, *, /). Utiliza una estructura condicional (if o switch) para realizar la operación correspondiente y mostrar el resultado.
+    // Crea un programa que pida al usuario dos números y una operación (+, -, *, /). Utiliza una estructura condicional (if o switch) para realizar la operación correspondiente y mostrar el resultado.
+        let numero1 = 15
+        let numero2 = 2
+        let operacion = 1
+
+        switch(operacion){
+            case 1:
+                console.log( `la suma de ${numero1} y ${numero2} es ${numero1+numero2}`)
+                break
+            case 2:
+                console.log( `la resta de ${numero1} y ${numero2} es ${numero1-numero2}`)
+                break
+            case 3:
+                console.log( `la multiplicacion de ${numero1} y ${numero2} es ${numero1*numero2}`)
+                break
+            case 4:
+                console.log( `la division de ${numero1} y ${numero2} es ${numero1/numero2}`)
+                break
+            default:
+                console.log('error')
+        }
 
 // 2. Determinar si un número es par o impar:
 // Escribe un programa que pida al usuario un número y determine si es par o impar. Utiliza el operador módulo (%) para obtener el resto de la división entre 2.
