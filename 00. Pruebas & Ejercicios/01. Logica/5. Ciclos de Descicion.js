@@ -22,7 +22,15 @@
         }
 
 // 2. Determinar si un número es par o impar:
-// Escribe un programa que pida al usuario un número y determine si es par o impar. Utiliza el operador módulo (%) para obtener el resto de la división entre 2.
+    // Escribe un programa que pida al usuario un número y determine si es par o impar. Utiliza el operador módulo (%) para obtener el resto de la división entre 2.
+        let numero = 3
+
+        if ((numero % 2)==0){
+            console.log('es par')
+        }
+        else{
+            console.log('es impar')
+        }
 
 // 3. Calcular el descuento de una compra:
 // Crea un programa que calcule el precio final de una compra aplicando un descuento según el monto total. Utiliza una estructura condicional para determinar el porcentaje de descuento a aplicar. Por ejemplo, si el monto es mayor a $100, aplica un 10% de descuento.
