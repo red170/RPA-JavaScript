@@ -1,8 +1,8 @@
-let numeros = [3, 5, 7, 2, 8, 1]
-
-function ordenar(array1){
-    let ordenado1 = array1.reverse()
-    console.log(ordenado1)
+function eliminarDuplicados(array) {
+    return [...new Set(array)];
 }
 
-ordenar(numeros)
+let arrayConDuplicados = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1,9,6,2,1]
+let arraySinDuplicados = eliminarDuplicados(arrayConDuplicados)
+
+console.log(arraySinDuplicados)
