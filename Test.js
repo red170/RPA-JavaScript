@@ -1,8 +1,9 @@
-function eliminarDuplicados(array) {
-    return [...new Set(array)];
-}
+let array3 = [3,5,1,2,6,9,8,4,7]
 
-let arrayConDuplicados = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1,9,6,2,1]
-let arraySinDuplicados = eliminarDuplicados(arrayConDuplicados)
+        function mayor(array1){
+            let ordenado = array1.sort(((a,b)=>a-b))       
+            console.log(ordenado)
 
-console.log(arraySinDuplicados)
+            
+        }
+        mayor(array3)

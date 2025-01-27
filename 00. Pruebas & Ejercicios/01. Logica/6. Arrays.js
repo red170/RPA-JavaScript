@@ -38,15 +38,24 @@
         ordenar(numeros)
 
 // 4. Eliminar duplicados de un array:
-// Escribe una función que tome un array y devuelva un nuevo array con los mismos elementos pero sin duplicados.
-    function eliminarDuplicados(array) {
-        return [...new Set(array)];
-    }
+    // Escribe una función que tome un array y devuelva un nuevo array con los mismos elementos pero sin duplicados.
+        function eliminarDuplicados(array) {
+            return [...new Set(array)];
+        }
 
-    let arrayConDuplicados = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1,9,6,2,1]
-    let arraySinDuplicados = eliminarDuplicados(arrayConDuplicados)
+        let arrayConDuplicados = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1,9,6,2,1]
+        let arraySinDuplicados = eliminarDuplicados(arrayConDuplicados)
 
-    console.log(arraySinDuplicados)
+        console.log(arraySinDuplicados)
 
 // 5. Ordenar un array de forma ascendente:
-// Crea una función que ordene los elementos de un array de números de menor a mayor.
+    // Crea una función que ordene los elementos de un array de números de menor a mayor.
+        let array3 = [3,5,1,2,6,9,8,4,7]
+
+                function mayor(array1){
+                    let ordenado = array1.sort(((a,b)=>a-b))       
+                    console.log(ordenado)
+
+                    
+                }
+                mayor(array3)
