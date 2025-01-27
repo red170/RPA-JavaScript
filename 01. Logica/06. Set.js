@@ -42,4 +42,11 @@
     tecArray = Array.from(tecnologias)
     console.log(tecArray)
 
+//Eliminar Elementos Repetidos de un Arreglo de Datos
+    let array = [1,1,2,2,3,3,4,4,5,5]
+    let set = new Set(array)
+    let arrayConvertido = Array.from(set)
+    console.log(arrayConvertido)
+
+
 
