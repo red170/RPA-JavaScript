@@ -15,7 +15,16 @@
         suma(array)
 
 // 2. Encontrar el número más grande en un array:
-// Escribe una función que encuentre el número más grande en un array de números.
+    // Escribe una función que encuentre el número más grande en un array de números.
+        let array2 = [3,5,1,2,6,9,8,4,7]
+
+        function mayor(array1){
+            let ordenado = array1.sort(((a,b)=>b-a))       
+            console.log(ordenado[0])
+
+            
+        }
+        mayor(array2)
 
 // 3. Invertir un array:
 // Crea una función que invierta el orden de los elementos de un array.
