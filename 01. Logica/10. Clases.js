@@ -6,17 +6,17 @@
 
             //Constrcutor de la Clase
             constructor(nombre,desarrolladora,publicadora,anoDeLanzamiento,genero,personajes){ //Se declara el constructor de la clase que es un metodo especial que se ejecuta en el momento de instanciar la clase, el constructor recibe los parametros que se le pasan al momento de instanciar la clase.
-                this.clave1 = nombre
-                this.clave2 = desarrolladora
-                this.clave3 = publicadora
-                this.clave4 = anoDeLanzamiento
-                this.clave5 = genero
-                this.clave6 = personajes
+                this.nombre = nombre
+                this.desarrolladora = desarrolladora
+                this.publicadora = publicadora
+                this.anoDeLanzamiento = anoDeLanzamiento
+                this.genero = genero
+                this.personajes = personajes
             }
 
             //Metodos de la Clase
             showgame(){//Se declara un metodo de la clase que es una funcion que se puede ejecutar en los objetos creados a partir de la clase. 
-                return `El Juego ${this.clave1} esta desarrollado por ${this.clave2} y publicado por ${this.clave3} se lanzo en el año ${this.clave4} pertenece al genero ${this.clave5} y entre sus personajes podemos mencionar a ${this.clave6}`
+                return `El Juego ${this.nombre} esta desarrollado por ${this.desarrolladora} y publicado por ${this.publicadora} se lanzo en el año ${this.anoDeLanzamiento} pertenece al genero ${this.genero} y entre sus personajes podemos mencionar a ${this.personajes}`
             }
         }
 
