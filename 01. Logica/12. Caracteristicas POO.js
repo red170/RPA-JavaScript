@@ -39,23 +39,59 @@ class Animal {
     }
 }
 
-console.log(new Animal('perro', 5, 'Pitbull').ladra());
-console.log(new Animal('gato', 5, 'Siames').ladra());
+let perro1 = new Animal('Perro', 5, 'Pitbull');
+let gato1 = new Animal('Gato', 3, 'Siames');
+
+console.log(perro1.ladra());
+console.log(gato1.ladra());
 
 //Herencia
 //Es la Capacidad de una Clase de Heredar Metodos y Propiedades de Otra Clase.
+
+class Perro extends Animal {
+    constructor(nombre, edad, raza) {
+        super(nombre, edad, raza);
+    }
+}
+
+let perro2 = new Perro('Perro', 15, 'Pastor Aleman');
+console.log(perro2.mostrar());
+
+
+//Metodos Estaticos
+//Son Metodos que se Pueden Ejecutar sin la Necesidad de Instanciar la Clase.
 
 class perro extends Animal{
     constructor(nombre,edad,raza){
         super(nombre,edad,raza)
     }
+    static ladrar(){
+        return 'Grrrr'
+    }
 }
 
-console.log(new perro('Perro',5,'Pitbull').mostrar())
+console.log(perro.ladrar())
 
+//Setter
+//Es un Metodo que se Utiliza para Establecer un Valor a una Propiedad.
 
-//Modularidad
-//Es la Capacidad de un Sistema de Ser Dividido en Modulos Independientes.
+class perro extends Animal{
+    constructor(nombre,edad,raza){
+        super(nombre,edad,raza)
+    }
+    set setNombre(nombre){
+        this.nombre = nombre
+    }
+}
 
-//Encapsulamiento
-//Es la Capacidad de un Objeto de Ocultar sus Datos Internos y Mostrar Solo lo que es Necesario.
+//Getter
+//Es un Metodo que se Utiliza para Obtener un Valor de una Propiedad.
+
+class perro extends Animal{
+    constructor(nombre,edad,raza){
+        super(nombre,edad,raza)
+    }
+    get getNombre(){
+        return this.nombre
+    }
+}
