@@ -15,19 +15,19 @@ let palabras = ['HTML','CSS','JS','GIT','REACT']
 // Metodos Basicos
 //Los metodos son funciones que se pueden aplicar a un objeto o arreglo
 
-    // Devulve el Primer elemento del arreglo
+    //Elimina el Primer elemento del arreglo
     array.shift() 
     console.log('SHIFT: ' + array)
 
-    // Devulve el Ultimo elemento del arreglo
+    // Elimina el Ultimo elemento del arreglo
     array.pop() 
-    console.log('POP' + array)
-
-    // Agregar Elementos a un arreglo
-    array.push(10,11) 
     console.log('POP: ' + array)
 
-    // Agrega un elemento nuevo al inicio
+    // Agregar Elementos a un arreglo al final de la lista
+    array.push(10,11) 
+    console.log('PUSH: ' + array)
+
+    // Agrega uno o varios elemento nuevo al inicio
     array.unshift(1)
     console.log('UNSHIFT: ' + array)
 
