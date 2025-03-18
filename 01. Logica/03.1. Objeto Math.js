@@ -3,7 +3,7 @@ numeros = [1,2,3,4,5,6,7,8,9,10]
 // Objeto Math
 // El objeto Math nos permite realizar operaciones matematicas complejas de una manera sencilla 
 
-    //Numeros Trascendentales
+    //Numeros Trascendentales - Propiedades Matematicas
 
         //Numero de Euler
         let numeroDeEuler = Math.E 
@@ -29,7 +29,7 @@ numeros = [1,2,3,4,5,6,7,8,9,10]
         let pi = Math.PI 
         console.log(pi)
 
-    //Operaciones Matematicas
+    //Operaciones Matematicas - Metodos Matematicos
 
         // Devolver el Valor Absoluto de un Numero
         let valorAbaolutoDeX = Math.abs(-1) 
