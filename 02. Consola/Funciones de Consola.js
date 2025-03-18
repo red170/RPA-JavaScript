@@ -30,3 +30,33 @@
     //Dir
     //Muestra una lista interactiva de las propiedades de un objeto JavaScript.
     console.dir([1,2,3,4,5]);
+
+//Funciones de Conteo en la consola
+
+    //Count
+    //Registra el número de veces que se ha llamado a count().
+    console.count("Hola");
+    console.count("Hola");  
+
+    //CountReset
+    //Restablece el contador de count().
+    console.countReset("Hola");
+    console.count("Hola");
+
+//Funciones de Agrupación en la consola
+
+    //Group
+    //Crea un nuevo grupo en la consola.
+    console.group("Frutas");
+    console.log("Manzana");
+    console.log("Banana");
+    console.log("Naranja");
+    console.groupEnd();
+
+    //GroupCollapsed
+    //Crea un nuevo grupo en la consola, pero con el grupo colapsado. (osea cerrado)
+    console.groupCollapsed("Frutas");
+    console.log("Manzana");
+    console.log("Banana");
+    console.log("Naranja");
+    console.groupEnd();
