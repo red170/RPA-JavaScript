@@ -60,3 +60,15 @@
     console.log("Banana");
     console.log("Naranja");
     console.groupEnd();
+
+//Funciones de Temporización en la consola
+
+    //Time
+    //Inicia un temporizador (como si fuera un cronómetro).
+    console.time("Tiempo");
+    console.log("Hola");
+    console.log("Hola");
+    console.log("Hola");
+    console.timeEnd("Tiempo");
+
+
