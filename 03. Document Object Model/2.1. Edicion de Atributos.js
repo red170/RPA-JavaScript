@@ -38,6 +38,47 @@ let nombre = document.getElementById('name')
         // Nos permite establecer un titulo a un elemento HTML
         title.title = 'Titulo de la pagina'
 
+//***Atributos de Input */
+
+    //className
+        // Nos permite establecer una clase a un elemento HTML
+        nombre.className = 'input'
+    //value
+        // Nos permite establecer un valor a un elemento HTML
+        nombre.value = 'Juan'
+    
+    //type
+        // Nos permite establecer el tipo de input
+        nombre.type = 'range'
+
+    //accept
+        // Nos permite establecer el tipo de archivo que se puede seleccionar
+        nombre.accept = 'image/png'
+
+    //form
+        // Nos permite establecer el formulario al que pertenece un input
+        nombre.form = 'form'
+
+    //minLength
+        // Nos permite establecer la longitud minima de un input
+        nombre.minLength = 3
+
+    //maxLength
+        // Nos permite establecer la longitud maxima de un input
+        nombre.maxLength = 10
+
+    //placeholder
+        // Nos permite establecer un texto de ayuda en un input
+        nombre.placeholder = 'Nombre'
+
+    //readOnly
+        // Nos permite establecer un input como solo lectura
+        nombre.readOnly = true
+
+    //required
+        // Nos permite establecer un input como requerido
+        nombre.required = true
+        
 
 //***Atributos Directos */
 // Se hace uso de las propiedades de cada nodo para poder acceder directamente a los valores de ellas ya sea para visualizarlas o para operarlas
