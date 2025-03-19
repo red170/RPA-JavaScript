@@ -79,6 +79,24 @@ let nombre = document.getElementById('name')
         // Nos permite establecer un input como requerido
         nombre.required = true
         
+//***Atributos Style */
+    // Nos permite establecer estilos a un elemento HTML
+
+    //backgroundColor
+        // Nos permite establecer el color de fondo de un elemento HTML
+        title.style.backgroundColor = 'red'
+    
+    //color
+        // Nos permite establecer el color del texto de un elemento HTML
+        title.style.color = 'white'
+
+    //display
+        // Nos permite establecer la visibilidad de un elemento HTML
+        // title.style.display = 'none'
+
+    //fontSize
+        // Nos permite establecer el tamaño de la fuente de un elemento HTML
+        title.style.fontSize = '50px'
 
 //***Atributos Directos */
 // Se hace uso de las propiedades de cada nodo para poder acceder directamente a los valores de ellas ya sea para visualizarlas o para operarlas
