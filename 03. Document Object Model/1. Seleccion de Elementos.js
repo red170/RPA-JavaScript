@@ -3,7 +3,7 @@
 //Se puede almacenar el nodo dentro de una variable y luego se pueden extraer sus propiedades
 let title = document.getElementById('title')
 //Cambiar Texto de Elemento desde JS (Mediante Propiedad Text Content)
-title.textContent = 'DOM'
+title.textContent = 'Demo DOM'
 
 
 //*** Seleccion de Elementos Mediante Class */
@@ -29,6 +29,7 @@ para2.textContent = 'DOM 2 '
         let para4 = document.querySelector('.para:nth-child(3)').querySelector('span')
         para4.textContent = 'HEMOS CAMBIADO'
 
+        
 //***Seleccion de Elementos Mediante Class (Varios Elementos con la Misma Clase) */
 //Modficar a los Elementos de forma Independiente 
         // Si se desa hacer seleccion de varios elementos con la misma clase de CSS
