@@ -16,7 +16,7 @@
 
     title.classList.contains('mainTitle')
 
-// Alternar una clase
+// Alternar una clase (si la tiene la quita, si no la tiene la añade)
 
     title.classList.toggle('mainTitle')
 
