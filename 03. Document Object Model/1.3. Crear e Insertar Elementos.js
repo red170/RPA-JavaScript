@@ -32,13 +32,14 @@ let dias = ['lunes','martes','miercoles','jueves','viernes','sabado','domingo','
 // El DocumentFragment es un objeto que permite crear nodos sin necesidad de agregarlo al DOM y luego agregarlos de una sola vez al DOM, lo que mejora el rendimiento, en resumen nos ayuda a crear varios elementos y agregar varios dentro de un solo elemento padre
 
     // Crear un Fragmento
-    let fragment1 = document.createDocumentFragment()
+        let fragment1 = document.createDocumentFragment()
     
-    for (let i = 0; i < 20 ; i++) {
-        const item = document.createElement('LI')
-        item.innerHTML = 'Nuevo Elemento'
-        fragment1.appendChild(item)
-    }
+    //Bucle que Crea 'n' cantidad de Elementos
+        for (let i = 0; i < 20 ; i++) {
+            const item = document.createElement('LI')
+            item.innerHTML = 'Nuevo Elemento'
+            fragment1.appendChild(item)
+        }
 
     // Agregar el Fragmento al DOM
-    dayslist.appendChild(fragment1)
+        dayslist.appendChild(fragment1)
