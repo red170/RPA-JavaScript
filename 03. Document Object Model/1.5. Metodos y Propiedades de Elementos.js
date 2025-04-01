@@ -36,13 +36,13 @@ const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitul
     //ParentNode
     // La propiedad parentNode devuelve el nodo padre del nodo especificado.
 
-        console.log(subtitulo.parentNode) // Devuelve el nodo padre del nuevo h2 (contenedor)
+        console.log(subtitulo.parentNode) // Devuelve el nodo padre del subtitulo (contenedor)
         console.log(contenedor.parentNode) // Devuelve el nodo padre del contenedor (documento)
 
     //ParentElement
     // La propiedad parentElement devuelve el elemento padre del nodo especificado.
 
-        console.log(subtitulo.parentElement) // Devuelve el elemento padre del nuevo h2 (contenedor)
+        console.log(subtitulo.parentElement) // Devuelve el elemento padre del subtitulo (contenedor)
         console.log(contenedor.parentElement) // Devuelve el elemento padre del contenedor (documento)
 
 //Metodos y Propiedades de Elementos Hermanos (Siblings)
@@ -51,4 +51,19 @@ const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitul
     //NextSibling
     // La propiedad nextSibling devuelve el siguiente nodo hermano del nodo especificado.
 
-        console.log(subtitulo.nextSibling) // Devuelve el siguiente nodo hermano del nuevo h2 (null porque no hay siguiente nodo hermano)
+        console.log(subtitulo.nextSibling) // Devuelve el siguiente nodo hermano del subtitulo (null porque no hay siguiente nodo hermano)
+
+    //PreviousSibling
+    // La propiedad previousSibling devuelve el nodo hermano anterior del nodo especificado.
+
+        console.log(subtitulo.previousSibling) // Devuelve el nodo hermano anterior del subtitulo (null porque no hay nodo hermano anterior)
+
+    //NextElementSibling
+    // La propiedad nextElementSibling devuelve el siguiente nodo hermano del nodo especificado.
+
+        console.log(subtitulo.nextElementSibling) // Devuelve el siguiente nodo hermano del subtitulo (null porque no hay siguiente nodo hermano)
+
+    //PreviousElementSibling
+    // La propiedad previousElementSibling devuelve el nodo hermano anterior del nodo especificado.
+
+        console.log(subtitulo.previousElementSibling) // Devuelve el nodo hermano anterior del subtitulo (null porque no hay nodo hermano anterior)
