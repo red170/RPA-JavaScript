@@ -3,6 +3,7 @@ let dayslist = document.getElementById('dayslist')
 let selectdays = document.getElementById('daysselect')
 
 let dias = ['lunes','martes','miercoles','jueves','viernes','sabado','domingo','tangamandapio']
+
 //***Agregar un Elemento Manualmente */
     // Crear un Elemento
     let itemlist = document.createElement('LI')
