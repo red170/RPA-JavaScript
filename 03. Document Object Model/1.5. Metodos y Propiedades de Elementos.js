@@ -67,3 +67,10 @@ const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitul
     // La propiedad previousElementSibling devuelve el nodo hermano anterior del nodo especificado.
 
         console.log(subtitulo.previousElementSibling) // Devuelve el nodo hermano anterior del subtitulo (null porque no hay nodo hermano anterior)
+
+//Nodos - Extras
+
+    //closest()
+    // El método closest() devuelve el elemento más cercano que coincide con el selector especificado.
+
+        console.log(subtitulo.closest("#container")) // Devuelve el contenedor porque es el elemento más cercano que coincide con el selector #container
