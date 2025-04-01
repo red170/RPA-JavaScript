@@ -1,16 +1,18 @@
-const contenedor = document.getElementById("container")
+const contenedor = document.getElementById("container") // Selecciona el contenedor donde se van a agregar los elementos
 
-const parrafo = document.createElement("p")
-parrafo.innerHTML = "Hola, soy un parrafo"
+const parrafo = document.createElement("p" )// Crea un nuevo elemento <p> (parrafo)
+parrafo.innerHTML = "Hola, soy un parrafo"// Agrega texto al parrafo
 
-const h2Nuevo = document.createElement("h2")
-h2Nuevo.innerHTML = "Hola, soy un h2"
+const h2Nuevo = document.createElement("h2" )// Crea un nuevo elemento <h2> (titulo)
+h2Nuevo.innerHTML = "Hola, soy un h2" // Agrega texto al h2
 
-const h2Antiguo = document.getElementById("titulo")
+const h2Antiguo = document.getElementById("titulo") // Selecciona el h2 que se va a reemplazar
+
+const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitulo
 
 
 
-//Metodos y Propiedades de Elementos
+//Metodos y Propiedades de Elementos Hijos (Childs)
 // Los elementos HTML tienen propiedades y métodos que se pueden usar para manipular el DOM. Estos métodos y propiedades son parte de la interfaz de programación de aplicaciones (API) del DOM. 
 
     //ReplaceChild
@@ -23,4 +25,30 @@ const h2Antiguo = document.getElementById("titulo")
 
         contenedor.removeChild(h2Nuevo) // Elimina el nuevo h2 del contenedor
 
-    
+    //HasChildNodes
+    // El método hasChildNodes() devuelve true si el nodo tiene hijos, de lo contrario devuelve false.
+
+        console.log(contenedor.hasChildNodes()) // Devuelve true porque el contenedor tiene hijos
+
+//Metodos y Propiedades de Elementos Padres (Parents)
+// Los elementos HTML también tienen propiedades y métodos que se pueden usar para manipular el DOM. Estos métodos y propiedades son parte de la interfaz de programación de aplicaciones (API) del DOM.
+
+    //ParentNode
+    // La propiedad parentNode devuelve el nodo padre del nodo especificado.
+
+        console.log(subtitulo.parentNode) // Devuelve el nodo padre del nuevo h2 (contenedor)
+        console.log(contenedor.parentNode) // Devuelve el nodo padre del contenedor (documento)
+
+    //ParentElement
+    // La propiedad parentElement devuelve el elemento padre del nodo especificado.
+
+        console.log(subtitulo.parentElement) // Devuelve el elemento padre del nuevo h2 (contenedor)
+        console.log(contenedor.parentElement) // Devuelve el elemento padre del contenedor (documento)
+
+//Metodos y Propiedades de Elementos Hermanos (Siblings)
+// Los elementos HTML también tienen propiedades y métodos que se pueden usar para manipular el DOM. Estos métodos y propiedades son parte de la interfaz de programación de aplicaciones (API) del DOM.
+
+    //NextSibling
+    // La propiedad nextSibling devuelve el siguiente nodo hermano del nodo especificado.
+
+        console.log(subtitulo.nextSibling) // Devuelve el siguiente nodo hermano del nuevo h2 (null porque no hay siguiente nodo hermano)
