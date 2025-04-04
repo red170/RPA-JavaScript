@@ -9,37 +9,38 @@
             //Obtener el Elemento sobre el Document (Sera el HTML)
             console.log(parent1.parentElement.parentElement)
 
-//*** Recorrido entre Elementos HIjos*/
+    //*** Recorrido entre Elementos HIjos*/
+
     //Devuelve todos los hijos del nodo
-    console.log(parent1.childNodes)
+        console.log(parent1.childNodes)
 
-    //Devulve todos los nodos elementos Hijos
-    console.log(parent1.children)
+        //Devulve todos los nodos elementos Hijos
+        console.log(parent1.children)
 
-    //Devuelve el primer Nodo Hijo
-    console.log(parent1.firstChild)
+        //Devuelve el primer Nodo Hijo
+        console.log(parent1.firstChild)
 
-    //Devulve el priemr nodo elemento hijo
-    console.log(parent1.firstElementChild)
+        //Devulve el priemr nodo elemento hijo
+        console.log(parent1.firstElementChild)
 
-    //Devulve el ultimo nodo hijo
-    console.log(parent1.lastChild)
+        //Devulve el ultimo nodo hijo
+        console.log(parent1.lastChild)
 
-    //Devulve el ultimo nodo elemento hijo
-    console.log(parent1.lastElementChild)
+        //Devulve el ultimo nodo elemento hijo
+        console.log(parent1.lastElementChild)
 
-    //Devulve true si tiene hijos y false sino los tiene
-    console.log(parent1.hasChildNodes())
+        //Devulve true si tiene hijos y false sino los tiene
+        console.log(parent1.hasChildNodes())
 
-//*** Recorrido entre Elementos */
+    //*** Recorrido entre Elementos */
 
-    //Devulve el siguiente nodo Hernano
-    console.log(parent1.nextSibling)
+        //Devulve el siguiente nodo Hernano
+        console.log(parent1.nextSibling)
 
-    console.log(parent1.nextElementSibling)
+        console.log(parent1.nextElementSibling)
 
-    //Devulve el anterior nodo hermano
-    console.log(parent1.previousSibling)
+        //Devulve el anterior nodo hermano
+        console.log(parent1.previousSibling)
 
-    console.log(parent1.previousElementSibling)
+        console.log(parent1.previousElementSibling)
 
