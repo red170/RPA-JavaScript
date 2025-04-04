@@ -12,7 +12,7 @@ const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitul
 
 
 
-//Metodos y Propiedades de Elementos Hijos (Childs)
+//** Metodos y Propiedades de Elementos Hijos (Childs)
 // Los elementos HTML tienen propiedades y métodos que se pueden usar para manipular el DOM. Estos métodos y propiedades son parte de la interfaz de programación de aplicaciones (API) del DOM. 
 
     //ReplaceChild
@@ -30,7 +30,7 @@ const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitul
 
         console.log(contenedor.hasChildNodes()) // Devuelve true porque el contenedor tiene hijos
 
-//Metodos y Propiedades de Elementos Padres (Parents)
+//** Metodos y Propiedades de Elementos Padres (Parents)
 // Los elementos HTML también tienen propiedades y métodos que se pueden usar para manipular el DOM. Estos métodos y propiedades son parte de la interfaz de programación de aplicaciones (API) del DOM.
 
     //ParentNode
@@ -45,7 +45,7 @@ const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitul
         console.log(subtitulo.parentElement) // Devuelve el elemento padre del subtitulo (contenedor)
         console.log(contenedor.parentElement) // Devuelve el elemento padre del contenedor (documento)
 
-//Metodos y Propiedades de Elementos Hermanos (Siblings)
+//** Metodos y Propiedades de Elementos Hermanos (Siblings)
 // Los elementos HTML también tienen propiedades y métodos que se pueden usar para manipular el DOM. Estos métodos y propiedades son parte de la interfaz de programación de aplicaciones (API) del DOM.
 
     //NextSibling
@@ -68,7 +68,7 @@ const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitul
 
         console.log(subtitulo.previousElementSibling) // Devuelve el nodo hermano anterior del subtitulo (null porque no hay nodo hermano anterior)
 
-//Nodos - Extras
+//** Nodos - Extras
 
     //closest()
     // El método closest() devuelve el elemento más cercano que coincide con el selector especificado.

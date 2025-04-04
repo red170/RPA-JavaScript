@@ -2,6 +2,7 @@ let title = document.getElementById('title')
 let nombre = document.getElementById('name')
 
 //*** Lectura y Modificacion de Atributos */
+// Nos permite leer y modificar los atributos de un elemento HTML
 
         // Obtener el valor de un atributo der un elemento del HTML
             /// Despues de haber almacenado el nodo en una variable se porcede a realizar la comprobacion colocando el Atributo/Propiedad del elemento y nos devolvera el valor
@@ -16,6 +17,8 @@ let nombre = document.getElementById('name')
             nombre.removeAttribute('type')
 
 //***Atributos Globales */
+// Nos permite establecer atributos a un elemento HTML
+
     //contentEditable
         // Nos permite editar el contenido de un elemento HTML
         title.contentEditable = true
@@ -39,6 +42,7 @@ let nombre = document.getElementById('name')
         title.title = 'Titulo de la pagina'
 
 //***Atributos de Input */
+// Nos permite establecer atributos a un elemento input HTML
 
     //className
         // Nos permite establecer una clase a un elemento HTML
@@ -80,7 +84,7 @@ let nombre = document.getElementById('name')
         nombre.required = true
         
 //***Atributos Style */
-    // Nos permite establecer estilos a un elemento HTML
+// Nos permite establecer estilos a un elemento HTML
 
     //backgroundColor
         // Nos permite establecer el color de fondo de un elemento HTML

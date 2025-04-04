@@ -1,9 +1,11 @@
-//Text Content
+//** Text Content
+
     // Se hace uso de la propiedad textContent para cambiar el texto dentro de un elemento
     let title = document.getElementById('title')
     title.textContent = 'DOM Mod'
 
-//Inner HTML
+//** Inner HTML
+
     // Se hace uso de la propiedad innerHTML para cambiar el texto dentro de un elemento
     let title2 = document.getElementById('title2')
     title2.innerHTML = 'DOM <span>Mod</span>'
@@ -16,7 +18,7 @@
     let title4 = document.getElementById('title4')
     title4.innerHTML = '<h1>Hola Mundo</h1>'
 
-//Outer HTML
+//** Outer HTML
 
     //se hace uso para mostar el HTML de un elemento incluyendo el propio elemento donde esta contenido
     console.log(title3.outerHTML)

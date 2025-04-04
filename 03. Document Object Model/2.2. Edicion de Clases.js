@@ -1,25 +1,25 @@
 //*** Clases */
 
-// Añadir una Clase
+    // Añadir una Clase
 
-    title.classList.add('mainTitle')
+        title.classList.add('mainTitle')
 
-// Quitar una Clase
+    // Quitar una Clase
 
-    title.classList.remove('mainTitle')
+        title.classList.remove('mainTitle')
 
-//Sustituir una clase por otra
+    //Sustituir una clase por otra
 
-    title.classList.replace('title','mainTitle')
+        title.classList.replace('title','mainTitle')
 
-// Comprobar si un elemento tiene una clase
+    // Comprobar si un elemento tiene una clase
 
-    title.classList.contains('mainTitle')
+        title.classList.contains('mainTitle')
 
-// Alternar una clase (si la tiene la quita, si no la tiene la añade)
+    // Alternar una clase (si la tiene la quita, si no la tiene la añade)
 
-    title.classList.toggle('mainTitle')
+        title.classList.toggle('mainTitle')
 
-// Devuelve la Clase del Indice especificado
+    // Devuelve la Clase del Indice especificado
 
-    title.classList.item(0)
+        title.classList.item(0)

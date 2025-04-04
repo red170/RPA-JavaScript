@@ -7,6 +7,7 @@ let dias = ['lunes','martes','miercoles','jueves','viernes','sabado','domingo','
 //***Agregar un Elemento Manualmente */
     
     //AppendChild (Agregar al final)
+
         // Crear un Elemento
         let itemlist = document.createElement('LI')
 
@@ -29,6 +30,7 @@ let dias = ['lunes','martes','miercoles','jueves','viernes','sabado','domingo','
         dayslist.replaceChild(itemlist2, itemlist)
     
 //***DocumentFragment */
+
 // El DocumentFragment es un objeto que permite crear nodos sin necesidad de agregarlo al DOM y luego agregarlos de una sola vez al DOM, lo que mejora el rendimiento, en resumen nos ayuda a crear varios elementos y agregar varios dentro de un solo elemento padre
 
     // Crear un Fragmento
