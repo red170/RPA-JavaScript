@@ -16,44 +16,20 @@ let nombre = document.getElementById('name')
             /// Dentro de los parametros colocamos el atributo a eliminar
             nombre.removeAttribute('type')
 
-//***Atributos Globales */
-// Nos permite establecer atributos a un elemento HTML
-
-    //contentEditable
-        // Nos permite editar el contenido de un elemento HTML
-        title.contentEditable = true
-
-    //dir
-        // Nos permite establecer la direccion del texto
-        // ltr: left to right
-        // rtl: right to left
-        title.dir = 'rtl'
-    
-    //hidden
-        // Nos permite ocultar un elemento HTML
-        // title.hidden = true
-
-    //tabIndex
-        // Nos permite establecer el orden de tabulacion de los elementos HTML
-        title.tabIndex = 1
-
-    //title
-        // Nos permite establecer un titulo a un elemento HTML
-        title.title = 'Titulo de la pagina'
-
 //***Atributos de Input */
 // Nos permite establecer atributos a un elemento input HTML
 
     //className
         // Nos permite establecer una clase a un elemento HTML
         nombre.className = 'input'
+
     //value
         // Nos permite establecer un valor a un elemento HTML
         nombre.value = 'Juan'
     
     //type
         // Nos permite establecer el tipo de input
-        nombre.type = 'range'
+        nombre.type = 'text'
 
     //accept
         // Nos permite establecer el tipo de archivo que se puede seleccionar
@@ -77,11 +53,36 @@ let nombre = document.getElementById('name')
 
     //readOnly
         // Nos permite establecer un input como solo lectura
-        nombre.readOnly = true
+        nombre.readOnly = false
 
     //required
         // Nos permite establecer un input como requerido
         nombre.required = true
+
+//***Atributos Globales */
+// Nos permite establecer atributos a un elemento HTML
+
+    //contentEditable
+        // Nos permite editar el contenido de un elemento HTML
+        title.contentEditable = true
+
+    //dir
+        // Nos permite establecer la direccion del texto
+        // ltr: left to right
+        // rtl: right to left
+        title.dir = 'rtl'
+    
+    //hidden
+        // Nos permite ocultar un elemento HTML
+        // title.hidden = true
+
+    //tabIndex
+        // Nos permite establecer el orden de tabulacion de los elementos HTML
+        title.tabIndex = 1
+
+    //title
+        // Nos permite establecer un titulo a un elemento HTML (aparece al pasar el mouse por encima)
+        title.title = 'Titulo de la pagina'
         
 //***Atributos Style */
 // Nos permite establecer estilos a un elemento HTML
