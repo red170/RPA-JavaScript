@@ -6,7 +6,14 @@
         //Cambiar Texto de Elemento desde JS (Mediante Propiedad Text Content)
         title.textContent = 'Demo DOM'
 
+//*** Seleccion por medddio de Tag Name */
 
+        // Se hace uso de document.getElementsByTagName y dentro del parametro introducimos el valor de la etiqueta entre comillas
+        let title2 = document.getElementsByTagName('h1')
+        // Cambiar Texto de Elemento desde JS (Mediante Propiedad Text Content)
+        title2[0].textContent = 'Demo DOM 2'
+        // Se debe considerar que al hacer uso de este metodo se devuelve un HTML Collection por lo que se debera acceder a los elementos mediante el index de la coleccion indicando por el index que elemeto se desea modificar 
+        
 //*** Seleccion de Elementos Mediante Class */
 
         // Al hacer uso de las clases el paramtro debe ser escrito tal cual como el selecctor de CSS es decir con el punto antes del nombre del selecctor
