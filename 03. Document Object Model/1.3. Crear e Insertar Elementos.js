@@ -45,9 +45,9 @@ let dias = ['lunes','martes','miercoles','jueves','viernes','sabado','domingo','
         let fragment1 = document.createDocumentFragment() //Creamos un Fragmento para agregar varios elementos a la vez
     
     //Bucle que Crea 'n' cantidad de Elementos
-        for (let i = 0; i < 10 ; i++) { //Creamos un bucle que crea 10 elementos
+        for (let i = 1; i <= 10 ; i++) { //Creamos un bucle que crea 10 elementos
             const item = document.createElement('LI') //Creamos un ListItem para la lista
-            item.innerHTML = 'Nuevo Elemento' //Escribimos el texto en el ListItem
+            item.innerHTML = `Nuevo Elemento ${i}` //Escribimos el texto en el ListItem
             fragment1.appendChild(item) //Agregamos el ListItem al Fragmento
         }
 
