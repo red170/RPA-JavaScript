@@ -103,6 +103,10 @@ let nombre = document.getElementById('name')
         // Nos permite establecer el tamaño de la fuente de un elemento HTML
         title.style.fontSize = '50px'
 
+    //Padding
+        // Nos permite establecer el espaciado interno de un elemento HTML
+        title.style.padding = '10px'
+
 //***Atributos Directos */
 // Se hace uso de las propiedades de cada nodo para poder acceder directamente a los valores de ellas ya sea para visualizarlas o para operarlas
     console.log(title.id)
