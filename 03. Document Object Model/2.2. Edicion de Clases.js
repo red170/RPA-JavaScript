@@ -1,8 +1,12 @@
+let title = document.getElementById('title')
+
 //*** Clases */
 
     // Añadir una Clase
 
         title.classList.add('mainTitle')
+        title.classList.add('mainTitle2')
+        title.classList.add('mainTitle3')
 
     // Quitar una Clase
 
@@ -14,7 +18,7 @@
 
     // Comprobar si un elemento tiene una clase
 
-        title.classList.contains('mainTitle')
+        console.log(title.classList.contains('mainTitle'))
 
     // Alternar una clase (si la tiene la quita, si no la tiene la añade)
 
@@ -22,4 +26,4 @@
 
     // Devuelve la Clase del Indice especificado
 
-        title.classList.item(0)
+        console.log(title.classList.item(0))
