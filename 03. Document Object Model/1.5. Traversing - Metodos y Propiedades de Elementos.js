@@ -18,11 +18,11 @@ h2Nuevo.innerHTML = "Hola, soy un h2" // Agrega texto al h2
     //ReplaceChild
     // El método replaceChild() reemplaza un hijo existente de un elemento por un nuevo nodo.
 
-        contenedor.replaceChild(h2Nuevo,h2Antiguo) // Reemplaza el primer hijo del contenedor por el nuevo h2
+        contenedor.replaceChild(h2Nuevo,h2Antiguo) // Reemplaza el primer hijo del contenedor primero especificamos el nuevo elmento y luego el elemento que queremos reemplazar
 
     //RemoveChild
     // El método removeChild() elimina un hijo de un elemento.
-
+ 
         contenedor.removeChild(h2Nuevo) // Elimina el nuevo h2 del contenedor
 
     //HasChildNodes
