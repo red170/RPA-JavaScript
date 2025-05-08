@@ -13,19 +13,19 @@ const contenedor = document.getElementById('container')
         console.log(ultimoHijo) ///Mostrar el último hijo en la consola
 //**FirstElementChild
 
-    // sirve para obtener el primer hijo de un nodo que sea un elemento
+    // sirve para obtener el primer hijo de un nodo mostrandolo como un elemento
         const primerHijoElemento = contenedor.firstElementChild //Asignar el primer hijo elemento a una variable
         console.log(primerHijoElemento) //Mostrar el primer hijo elemento en la consola
 
 //**LastElementChild
 
-    // sirve para obtener el último hijo de un nodo que sea un elemento
+    // sirve para obtener el último hijo de un nodo mostrandolo como un elemento
         const ultimoHijoElemento = contenedor.lastElementChild //Asignar el último hijo elemento a una variable
         console.log(ultimoHijoElemento) //Mostrar el último hijo elemento en la consola
 
 //**ChildNodes 
 
-    // sirve para obtener todos los nodos hijos de un nodo ( es recorrible con un forEach)
+    // sirve para obtener todos los nodos hijos de un nodo ( es recorrible con un forEach ) ( no funciona como un arreglo )
         const nodosHijos = contenedor.childNodes //Asignar todos los nodos hijos a una variable
         console.log(nodosHijos) //Mostrar todos los nodos hijos en la consola
 

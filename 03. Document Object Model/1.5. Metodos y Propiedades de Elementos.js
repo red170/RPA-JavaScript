@@ -1,14 +1,14 @@
 const contenedor = document.getElementById("container") // Selecciona el contenedor donde se van a agregar los elementos
+const h2Antiguo = document.getElementById("titulo") // Selecciona el h2 que se va a reemplazar
+const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitulo
+
 
 const parrafo = document.createElement("p" )// Crea un nuevo elemento <p> (parrafo)
 parrafo.innerHTML = "Hola, soy un parrafo"// Agrega texto al parrafo
-
 const h2Nuevo = document.createElement("h2" )// Crea un nuevo elemento <h2> (titulo)
 h2Nuevo.innerHTML = "Hola, soy un h2" // Agrega texto al h2
 
-const h2Antiguo = document.getElementById("titulo") // Selecciona el h2 que se va a reemplazar
 
-const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitulo
 
 
 
@@ -18,7 +18,7 @@ const subtitulo = document.getElementById("subtitulo") // Selecciona el Subtitul
     //ReplaceChild
     // El método replaceChild() reemplaza un hijo existente de un elemento por un nuevo nodo.
 
-        contenedor.replaceChild(h2Nuevo,h2Antiguo) // Reemplaza el primer hijo del contenedor por el nuevo h2ss
+        contenedor.replaceChild(h2Nuevo,h2Antiguo) // Reemplaza el primer hijo del contenedor por el nuevo h2
 
     //RemoveChild
     // El método removeChild() elimina un hijo de un elemento.
