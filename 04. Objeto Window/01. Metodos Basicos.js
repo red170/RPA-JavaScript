@@ -27,3 +27,7 @@ console.log(nombre)
 let respuesta = window.confirm('Estas seguro de que quieres salir?')
 console.log(respuesta)
 
+//Scroll
+// esta funcion desplaza la ventana actual del navegador a una posicion especifica
+window.scroll(0, 0) // desplaza la ventana a la posicion (0, 0)
+window.scrollTo(0, 0) // desplaza la ventana a la posicion (0, 0)
